@@ -17,7 +17,17 @@
 
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body { font-family: 'Inter', sans-serif; }
+    /* HD Sharp Text Rendering */
+    * {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    body { 
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    }
+
     .hero-bg {
       background: linear-gradient(135deg, #070b19 0%, #0b1a48 40%, #0d2c7d 70%, #1545b5 100%);
     }
