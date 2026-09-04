@@ -29,9 +29,17 @@
     .hero-bg {
       background: linear-gradient(135deg, #070b19 0%, #0b1a48 40%, #0d2c7d 70%, #1545b5 100%);
     }
+
+    /* Soft Cream White Background Utility */
+    .bg-cream {
+      background-color: #fdfbf7;
+    }
+    .bg-cream-card {
+      background-color: #faf7f2;
+    }
   </style>
 </head>
-<body class="bg-white text-slate-900 min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white text-base">
+<body class="bg-cream text-slate-900 min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white text-base">
 
   <div class="hero-bg text-white relative overflow-hidden border-b border-blue-900/50">
     
@@ -68,7 +76,7 @@
             </p>
           </div>
 
-          <form id="searchForm" class="bg-white p-2 rounded-2xl shadow-2xl flex flex-col sm:flex-row gap-2 max-w-2xl border border-white/20">
+          <form id="searchForm" class="bg-cream-card p-2 rounded-2xl shadow-2xl flex flex-col sm:flex-row gap-2 max-w-2xl border border-stone-300/40">
             <div class="flex-1 flex items-center px-3 gap-2">
               <span class="text-slate-400 text-lg">🔍</span>
               <input 
@@ -177,7 +185,7 @@
       <div id="cardsContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
     </div>
 
-    <div id="outputCard" class="hidden bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden space-y-0 mb-12">
+    <div id="outputCard" class="hidden bg-cream-card border border-stone-200/80 rounded-2xl shadow-xl overflow-hidden space-y-0 mb-12">
       <div class="bg-slate-900 text-white p-6 border-b border-slate-800 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
           <span class="text-xs md:text-sm text-blue-400 font-mono font-bold tracking-wider uppercase">Domain Inspection Results</span>
@@ -193,7 +201,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-slate-200 border-b border-slate-200 bg-slate-50 text-sm">
+      <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-stone-200 border-b border-stone-200 bg-stone-100/60 text-sm">
         <div class="p-4 md:p-5">
           <span class="text-slate-500 block font-medium text-xs md:text-sm">Latency Ping</span>
           <strong id="outLatency" class="text-slate-900 font-mono text-base md:text-lg mt-0.5 block">-- ms</strong>
@@ -214,11 +222,11 @@
 
       <div class="p-6 md:p-8 space-y-6">
         <div>
-          <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-4">
+          <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-stone-200 pb-2 mb-4">
             Domain & Registrar Information
           </h3>
           <table class="w-full text-xs md:text-sm font-mono">
-            <tbody class="divide-y divide-slate-200">
+            <tbody class="divide-y divide-stone-200">
               <tr>
                 <td class="py-3 text-slate-500 w-1/3">Domain Name:</td>
                 <td id="tableDomain" class="py-3 text-slate-900 font-bold break-all">---</td>
@@ -240,14 +248,14 @@
         </div>
 
         <div>
-          <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">
+          <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-stone-200 pb-2 mb-3">
             Technical Stack Details
           </h3>
           <div id="outTechStack" class="flex flex-wrap gap-2"></div>
         </div>
 
         <div>
-          <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">
+          <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-stone-200 pb-2 mb-3">
             Raw WHOIS Registry Record
           </h3>
           <pre id="rawWhoisBox" class="bg-slate-950 text-slate-300 p-4 rounded-xl font-mono text-xs md:text-sm leading-relaxed overflow-x-auto border border-slate-800">
@@ -266,7 +274,7 @@ DNSSEC: unsigned
           </pre>
         </div>
 
-        <div id="affiliateBox" class="bg-slate-50 border border-slate-200 rounded-xl p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <div id="affiliateBox" class="bg-stone-100/80 border border-stone-200 rounded-xl p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <div>
             <h4 class="text-sm md:text-base font-bold text-slate-900">Check Registration & Availability</h4>
             <p class="text-xs md:text-sm text-slate-600">Need to register or buy this domain? Check availability on Namecheap.</p>
@@ -286,12 +294,12 @@ DNSSEC: unsigned
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <div class="bg-[#f8f6ff] border border-[#e0d6fe] rounded-2xl p-6 relative flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <div class="bg-[#f7f3ff] border border-[#e0d6fe] rounded-2xl p-6 relative flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#6338f1] text-white text-[10px] font-bold tracking-wider uppercase px-3 py-1 rounded-md shadow-sm flex items-center gap-1">
             ★ MOST POPULAR
           </span>
           <div>
-            <div class="w-full bg-white rounded-xl p-4 border border-[#e2d8fe] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+            <div class="w-full bg-cream-card rounded-xl p-4 border border-[#e2d8fe] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
               <div class="w-12 h-12 bg-[#ede9fe] text-[#6338f1] rounded-xl flex items-center justify-center font-black text-2xl mb-2">✦</div>
               <span class="text-xs font-extrabold text-slate-800">Build your dream website</span>
             </div>
@@ -333,9 +341,9 @@ DNSSEC: unsigned
           </div>
         </div>
 
-        <div class="bg-[#f0f6ff] border border-[#d2e3fc] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <div class="bg-[#f2f7fd] border border-[#d2e3fc] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <div class="w-full bg-white rounded-xl p-4 border border-[#d2e3fc] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+            <div class="w-full bg-cream-card rounded-xl p-4 border border-[#d2e3fc] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
               <div class="w-12 h-12 bg-[#e0edff] text-[#1863ed] rounded-xl flex items-center justify-center font-black text-2xl mb-2">☁️</div>
               <span class="text-xs font-extrabold text-slate-800">Fast Cloud Hosting</span>
             </div>
@@ -377,9 +385,9 @@ DNSSEC: unsigned
           </div>
         </div>
 
-        <div class="bg-[#f0faf5] border border-[#c6f0d8] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <div class="bg-[#f3f9f5] border border-[#c6f0d8] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <div class="w-full bg-white rounded-xl p-4 border border-[#c6f0d8] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+            <div class="w-full bg-cream-card rounded-xl p-4 border border-[#c6f0d8] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
               <div class="w-12 h-12 bg-[#dcfce7] text-[#0e9f6e] rounded-xl flex items-center justify-center font-black text-2xl mb-2">🌐</div>
               <span class="text-xs font-extrabold text-slate-800">WordPress Optimized</span>
             </div>
@@ -427,7 +435,7 @@ DNSSEC: unsigned
 
   </main>
 
-  <footer class="border-t border-slate-200 py-6 text-center text-sm font-medium text-slate-500 bg-white mt-auto">
+  <footer class="border-t border-stone-200 py-6 text-center text-sm font-medium text-slate-500 bg-cream-card mt-auto">
     SiteLook Intelligence Platform — Programmatic Domain Intelligence Engine
   </footer>
 
@@ -460,7 +468,7 @@ DNSSEC: unsigned
         TLDS.forEach(tld => {
           const fullDomain = cleanInput + tld;
           const card = document.createElement('div');
-          card.className = 'bg-white border border-slate-200 rounded-xl p-4 flex justify-between items-center hover:border-blue-500 transition shadow-sm';
+          card.className = 'bg-cream-card border border-stone-200 rounded-xl p-4 flex justify-between items-center hover:border-blue-500 transition shadow-sm';
           card.innerHTML = `
             <div>
               <h4 class="font-bold font-mono text-slate-900 text-sm md:text-base">${fullDomain}</h4>
@@ -498,7 +506,7 @@ DNSSEC: unsigned
       techContainer.innerHTML = '';
       techBadges.forEach(tech => {
         const span = document.createElement('span');
-        span.className = 'px-3 py-1 text-xs md:text-sm font-mono bg-slate-100 text-slate-800 border border-slate-200 rounded-md';
+        span.className = 'px-3 py-1 text-xs md:text-sm font-mono bg-stone-100 text-slate-800 border border-stone-200 rounded-md';
         span.innerText = tech;
         techContainer.appendChild(span);
       });
