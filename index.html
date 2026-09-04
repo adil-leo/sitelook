@@ -7,10 +7,8 @@
   <title>SiteLook — Universal Domain Intelligence Engine</title>
   <meta name="description" content="Instant live domain lookup, WHOIS records, response latency, and tech stack detection.">
   
-  <!-- Blue Dynamic SVG Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><path d='M30 32 C30 26, 70 26, 70 36 C70 46, 30 54, 30 64 C30 74, 70 74, 70 68' stroke='white' stroke-width='12' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -35,13 +33,10 @@
 </head>
 <body class="bg-white text-slate-900 min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white text-base">
 
-  <!-- Top Hero Section (Dark Blue Background) -->
   <div class="hero-bg text-white relative overflow-hidden border-b border-blue-900/50">
     
-    <!-- Background Blue Glow Accent -->
     <div class="absolute -top-40 -right-40 w-[600px] h-[600px] bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
 
-    <!-- Header / Navbar Inside Hero -->
     <header class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex justify-between items-center relative z-10 border-b border-white/10">
       <div class="flex items-center space-x-3">
         <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center font-black text-white text-2xl shadow-lg border border-blue-400/30">S</div>
@@ -57,11 +52,9 @@
       </div>
     </header>
 
-    <!-- Hero Content -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14 relative z-10">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         
-        <!-- Left Side: Site Intelligence Search -->
         <div class="lg:col-span-7 space-y-6">
           <div class="space-y-2">
             <span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-xs font-mono font-bold border border-blue-400/30">
@@ -75,7 +68,6 @@
             </p>
           </div>
 
-          <!-- Main Search Bar -->
           <form id="searchForm" class="bg-white p-2 rounded-2xl shadow-2xl flex flex-col sm:flex-row gap-2 max-w-2xl border border-white/20">
             <div class="flex-1 flex items-center px-3 gap-2">
               <span class="text-slate-400 text-lg">🔍</span>
@@ -95,7 +87,6 @@
             </button>
           </form>
 
-          <!-- Core Feature Bullets -->
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-white/10 text-xs md:text-sm">
             <div class="flex items-start gap-2.5">
               <span class="text-blue-400 text-base">🔍</span>
@@ -122,16 +113,12 @@
 
         </div>
 
-        <!-- Right Side: Expanded High Laptop Screen (No Gamla, Globe, or Coffee) -->
         <div class="lg:col-span-5 flex justify-center items-center relative -mt-4 lg:-mt-8">
           <div class="relative w-full max-w-lg">
             
-            <!-- Laptop Body -->
             <div class="bg-slate-900 rounded-2xl p-3.5 shadow-2xl border border-slate-700/80 relative z-10">
-              <!-- Extended Screen Height -->
               <div class="bg-slate-950 rounded-xl overflow-hidden text-slate-100 border border-slate-800 shadow-inner p-5 space-y-4">
                 
-                <!-- Browser Bar -->
                 <div class="flex items-center justify-between border-b border-slate-800 pb-3">
                   <div class="flex gap-1.5">
                     <span class="w-2.5 h-2.5 rounded-full bg-red-500/80 inline-block"></span>
@@ -141,7 +128,6 @@
                   <span class="text-[11px] font-mono text-blue-400 bg-slate-900 px-2.5 py-0.5 rounded border border-slate-800">sitelook.engine/inspect</span>
                 </div>
 
-                <!-- Preview Analytics Cards inside Laptop -->
                 <div class="space-y-3 font-mono">
                   <div class="bg-slate-900 border border-slate-800 rounded-lg p-3 flex justify-between items-center">
                     <div>
@@ -175,7 +161,6 @@
 
               </div>
             </div>
-            <!-- Laptop Stand Base -->
             <div class="w-full h-4 bg-slate-800 rounded-b-2xl border-t border-slate-700 shadow-xl relative z-10"></div>
 
           </div>
@@ -185,16 +170,13 @@
     </div>
   </div>
 
-  <!-- Lower Main Container (White Background Area) -->
   <main class="max-w-6xl w-full mx-auto px-4 py-10 flex-1 flex flex-col">
     
-    <!-- Dynamic TLD Selector Results (When User Searches a Keyword) -->
     <div id="resultsList" class="hidden mb-10 space-y-3">
       <h3 class="text-sm font-bold text-slate-500 uppercase tracking-wider px-1">Select Domain Extension To Inspect:</h3>
       <div id="cardsContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
     </div>
 
-    <!-- WHOIS Detailed Output Card -->
     <div id="outputCard" class="hidden bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden space-y-0 mb-12">
       <div class="bg-slate-900 text-white p-6 border-b border-slate-800 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
@@ -289,61 +271,153 @@ DNSSEC: unsigned
             <h4 class="text-sm md:text-base font-bold text-slate-900">Check Registration & Availability</h4>
             <p class="text-xs md:text-sm text-slate-600">Need to register or buy this domain? Check availability on Namecheap.</p>
           </div>
-          <a id="outAffiliateLink" href="#" target="_blank" rel="nofollow" class="w-full sm:w-auto text-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-xl transition shadow-sm shrink-0">
+          <a id="outAffiliateLink" href="https://www.namecheap.com" target="_blank" rel="nofollow" class="w-full sm:w-auto text-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-xl transition shadow-sm shrink-0">
             Check Domain →
           </a>
         </div>
       </div>
     </div>
 
-    <!-- Core Engine Capabilities (White Section) -->
     <section class="mt-2 mb-10">
       <div class="text-center mb-10">
-        <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">Everything you need for domain intelligence</h2>
-        <p class="text-slate-600 text-sm md:text-base mt-1.5">Powerful engine tools to analyze, track, and inspect any web domain instantly</p>
+        <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">Everything you need to succeed online</h2>
+        <p class="text-slate-600 text-sm md:text-base mt-1.5">Powerful tools and services to build, grow and protect your online presence</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <!-- CARD 1 -->
-        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <div class="bg-[#f8f6ff] border border-[#e0d6fe] rounded-2xl p-6 relative flex flex-col justify-between shadow-sm hover:shadow-md transition">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#6338f1] text-white text-[10px] font-bold tracking-wider uppercase px-3 py-1 rounded-md shadow-sm flex items-center gap-1">
+            ★ MOST POPULAR
+          </span>
           <div>
-            <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-black text-2xl mb-4">🔍</div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">Live WHOIS Lookup</h3>
-            <p class="text-xs md:text-sm text-slate-600 mb-6 leading-relaxed">Instant real-time registry queries to check owner status, creation date, expiry, and registrar info.</p>
-            <ul class="space-y-2 text-xs md:text-sm text-slate-700 font-semibold">
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> Full Registrar Data</li>
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> Name Server Verification</li>
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> Expiry Date Alerts</li>
+            <div class="w-full bg-white rounded-xl p-4 border border-[#e2d8fe] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+              <div class="w-12 h-12 bg-[#ede9fe] text-[#6338f1] rounded-xl flex items-center justify-center font-black text-2xl mb-2">✦</div>
+              <span class="text-xs font-extrabold text-slate-800">Build your dream website</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-[#2e1d6b] mb-2">AI Website Builder</h3>
+            <p class="text-xs md:text-sm text-[#4c3a82] mb-6 leading-relaxed font-medium">Create a stunning website in minutes with our AI powered builder</p>
+            
+            <ul class="space-y-3 text-xs md:text-sm text-[#2e1d6b] mb-8 font-semibold">
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                AI generated layouts
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Drag & drop editor
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Mobile responsive
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                No coding required
+              </li>
             </ul>
+          </div>
+
+          <div class="pt-4 border-t border-[#e2d8fe]/60">
+            <div class="mb-4">
+              <span class="text-xs text-slate-600 block font-semibold">Starting at</span>
+              <div class="flex items-baseline gap-0.5">
+                <span class="text-3xl font-black text-[#1e1347]">$2.48</span>
+                <span class="text-sm font-bold text-slate-700">/mo</span>
+              </div>
+            </div>
+            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3.5 bg-[#6338f1] hover:bg-[#522cd0] text-white font-extrabold text-xs tracking-wider uppercase rounded-xl transition shadow-sm">
+              START BUILDING
+            </a>
           </div>
         </div>
 
-        <!-- CARD 2 -->
-        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <div class="bg-[#f0f6ff] border border-[#d2e3fc] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-black text-2xl mb-4">⚡</div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">Response & Latency Ping</h3>
-            <p class="text-xs md:text-sm text-slate-600 mb-6 leading-relaxed">Check server response times, HTTP status codes, and server reachability across global nodes.</p>
-            <ul class="space-y-2 text-xs md:text-sm text-slate-700 font-semibold">
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> Server Response Time</li>
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> HTTP Status Verification</li>
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> SSL Handshake Check</li>
+            <div class="w-full bg-white rounded-xl p-4 border border-[#d2e3fc] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+              <div class="w-12 h-12 bg-[#e0edff] text-[#1863ed] rounded-xl flex items-center justify-center font-black text-2xl mb-2">☁️</div>
+              <span class="text-xs font-extrabold text-slate-800">Fast Cloud Hosting</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-[#0c377d] mb-2">Web Hosting</h3>
+            <p class="text-xs md:text-sm text-[#27539b] mb-6 leading-relaxed font-medium">Fast, secure and reliable hosting for your websites</p>
+            
+            <ul class="space-y-3 text-xs md:text-sm text-[#0c377d] mb-8 font-semibold">
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Blazing fast loading times
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Free SSL Certificate
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                24/7 Expert Support
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                99.9% Uptime Guarantee
+              </li>
             </ul>
+          </div>
+
+          <div class="pt-4 border-t border-[#d2e3fc]/60">
+            <div class="mb-4">
+              <span class="text-xs text-slate-600 block font-semibold">Starting at</span>
+              <div class="flex items-baseline gap-0.5">
+                <span class="text-3xl font-black text-[#082352]">$3.48</span>
+                <span class="text-sm font-bold text-slate-700">/mo</span>
+              </div>
+            </div>
+            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3.5 bg-[#1863ed] hover:bg-[#1250c4] text-white font-extrabold text-xs tracking-wider uppercase rounded-xl transition shadow-sm">
+              GET STARTED
+            </a>
           </div>
         </div>
 
-        <!-- CARD 3 -->
-        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <div class="bg-[#f0faf5] border border-[#c6f0d8] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center font-black text-2xl mb-4">🛡️</div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">Tech Stack Detection</h3>
-            <p class="text-xs md:text-sm text-slate-600 mb-6 leading-relaxed">Identify underlying technologies, frameworks, CDN providers, and web servers powering the website.</p>
-            <ul class="space-y-2 text-xs md:text-sm text-slate-700 font-semibold">
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> CDN & Proxy Detection</li>
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> Framework Fingerprinting</li>
-              <li class="flex items-center gap-2"><span class="text-blue-600">✓</span> TLS Protocol Inspection</li>
+            <div class="w-full bg-white rounded-xl p-4 border border-[#c6f0d8] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+              <div class="w-12 h-12 bg-[#dcfce7] text-[#0e9f6e] rounded-xl flex items-center justify-center font-black text-2xl mb-2">🌐</div>
+              <span class="text-xs font-extrabold text-slate-800">WordPress Optimized</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-[#084c35] mb-2">WordPress Hosting</h3>
+            <p class="text-xs md:text-sm text-[#186c4f] mb-6 leading-relaxed font-medium">Optimized hosting built specifically for WordPress websites</p>
+            
+            <ul class="space-y-3 text-xs md:text-sm text-[#084c35] mb-8 font-semibold">
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Ultra Fast Performance
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                WordPress Auto Updates
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Automatic Setup & Caching
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Free SSL Certificate
+              </li>
             </ul>
+          </div>
+
+          <div class="pt-4 border-t border-[#c6f0d8]/60">
+            <div class="mb-4">
+              <span class="text-xs text-slate-600 block font-semibold">Starting at</span>
+              <div class="flex items-baseline gap-0.5">
+                <span class="text-3xl font-black text-[#04281c]">$3.48</span>
+                <span class="text-sm font-bold text-slate-700">/mo</span>
+              </div>
+            </div>
+            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3.5 bg-[#0e9f6e] hover:bg-[#0b855c] text-white font-extrabold text-xs tracking-wider uppercase rounded-xl transition shadow-sm">
+              VIEW PLANS
+            </a>
           </div>
         </div>
 
@@ -353,7 +427,6 @@ DNSSEC: unsigned
 
   </main>
 
-  <!-- Footer -->
   <footer class="border-t border-slate-200 py-6 text-center text-sm font-medium text-slate-500 bg-white mt-auto">
     SiteLook Intelligence Platform — Programmatic Domain Intelligence Engine
   </footer>
