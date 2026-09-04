@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteLook — Universal Site Status & Intelligence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans">
+
+  <header class="border-b border-slate-800/80 bg-slate-900/50 backdrop-blur py-4 px-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl font-black bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent">SITELOOK</span>
+        <span class="text-[10px] bg-slate-800 text-cyan-400 px-2 py-0.5 rounded border border-slate-700 font-mono">Engine v1.0</span>
+      </div>
+      <a href="#affiliate-partners" class="text-xs text-slate-400 hover:text-cyan-400">Hosting & Domain Lookup</a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl w-full mx-auto px-4 pt-16 pb-12 flex-1">
+    <div class="text-center space-y-4 mb-8">
+      <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight">Real-Time Site Status & Intelligence</h1>
+      <p class="text-slate-400 text-sm md:text-base">Instant Uptime Ping, Response Latency, WHOIS & Tech Stack Detection</p>
+    </div>
+
+    <form id="searchForm" class="relative max-w-2xl mx-auto mb-12">
+      <input 
+        type="text" 
+        id="domainInput"
+        placeholder="Enter domain (e.g. github.com, google.com)..." 
+        required
+        class="w-full px-6 py-4 bg-slate-900 border border-slate-700/80 rounded-2xl text-slate-100 text-base placeholder-slate-500 focus:outline-none focus:border-cyan-500 shadow-2xl transition"
+      />
+      <button 
+        type="submit" 
+        class="absolute right-2 top-2 bottom-2 px-6 bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 text-white font-medium rounded-xl text-sm transition">
+        Analyze
+      </button>
+    </form>
+
+    <div id="outputCard" class="hidden bg-slate-900/90 border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-800 pb-4 gap-2">
+        <div>
+          <h2 id="outDomain" class="text-xl font-bold font-mono text-cyan-400">---</h2>
+          <p id="outCheckedAt" class="text-xs text-slate-500">---</p>
+        </div>
+        <span id="outStatusBadge" class="px-3 py-1 rounded-full text-xs font-semibold bg-slate-800 text-slate-400">Checking...</span>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/60">
+          <span class="text-xs text-slate-500 block">Response Time</span>
+          <strong id="outLatency" class="text-lg font-mono text-slate-200">-- ms</strong>
+        </div>
+        <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/60">
+          <span class="text-xs text-slate-500 block">Status Code</span>
+          <strong id="outCode" class="text-lg font-mono text-slate-200">--</strong>
+        </div>
+        <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/60">
+          <span class="text-xs text-slate-500 block">Server Engine</span>
+          <strong id="outServer" class="text-sm font-mono text-slate-200 block truncate">--</strong>
+        </div>
+        <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800/60">
+          <span class="text-xs text-slate-500 block">Monetization Action</span>
+          <a id="outAffiliateLink" href="#" target="_blank" class="text-xs text-cyan-400 font-semibold hover:underline block mt-1">Buy/Transfer Domain</a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-xs font-semibold text-slate-400 mb-2">Detected Tech Stack & Headers</h3>
+        <div id="outTechStack" class="flex flex-wrap gap-2"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
