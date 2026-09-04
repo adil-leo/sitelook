@@ -4,25 +4,25 @@
   <meta name="google-site-verification" content="rJQM3zVnc3SqAqw-SK7iIC2qRMkvGH6I9FFndg6ZKJ0" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SiteLook — Official WHOIS & Domain Registry Database</title>
-  <meta name="description" content="Instant live WHOIS domain lookup, registration records, registrar details, and DNS server status.">
+  <title>SiteLook — Universal Domain Intelligence Engine</title>
+  <meta name="description" content="Instant live domain lookup, WHOIS records, response latency, and tech stack detection.">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-100 text-slate-800 min-h-screen flex flex-col font-sans selection:bg-blue-600 selection:text-white">
 
-  <!-- Classic WHOIS Navbar -->
+  <!-- Fixed SITELOOK Header -->
   <header class="bg-slate-900 text-white border-b border-slate-800 py-3.5 px-6 shadow-md">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <div class="flex items-center space-x-3">
-        <div class="w-8 h-8 rounded bg-blue-600 flex items-center justify-center font-black text-white text-lg tracking-wider">W</div>
+        <div class="w-8 h-8 rounded bg-blue-600 flex items-center justify-center font-black text-white text-lg tracking-wider">S</div>
         <div>
-          <span class="text-xl font-bold tracking-tight text-white block leading-none">WHOIS<span class="text-blue-400">LOOK</span></span>
-          <span class="text-[10px] text-slate-400 font-mono tracking-widest uppercase">Global Registry Lookup</span>
+          <span class="text-xl font-black tracking-wide text-white block leading-none">SITELOOK</span>
+          <span class="text-[10px] text-slate-400 font-mono tracking-widest uppercase">Domain Intelligence Engine</span>
         </div>
       </div>
       <div class="flex items-center space-x-2 text-xs font-mono text-emerald-400 bg-slate-800/80 px-3 py-1.5 rounded border border-slate-700">
         <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span>ICANN / RDAP Live</span>
+        <span>Engine v3.3 Active</span>
       </div>
     </div>
   </header>
@@ -30,10 +30,10 @@
   <!-- Main Container -->
   <main class="max-w-5xl w-full mx-auto px-4 py-10 flex-1 flex flex-col">
     
-    <!-- WHOIS Search Bar -->
+    <!-- Search Bar -->
     <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm mb-8">
-      <h1 class="text-xl md:text-2xl font-bold text-slate-900 mb-2">WHOIS Domain Database Lookup</h1>
-      <p class="text-slate-500 text-xs md:text-sm mb-4">Enter any domain name to inspect official registration records, owner privacy, and nameservers.</p>
+      <h1 class="text-xl md:text-2xl font-bold text-slate-900 mb-2">Inspect Any Domain or Brand</h1>
+      <p class="text-slate-500 text-xs md:text-sm mb-4">Real-time WHOIS registration records, server health, response latency, and tech stack.</p>
       
       <form id="searchForm" class="flex flex-col sm:flex-row gap-2">
         <input 
@@ -47,24 +47,24 @@
           type="submit" 
           id="searchBtn"
           class="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-lg transition shadow-sm shrink-0">
-          WHOIS Lookup
+          Inspect Now
         </button>
       </form>
     </div>
 
-    <!-- TLD Selector (Shown only when searching brand name without extension) -->
+    <!-- TLD Selector (Only for Brand Searches) -->
     <div id="resultsList" class="hidden mb-8 space-y-3">
-      <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider px-1">Select TLD Extension Record:</h3>
+      <h3 class="text-xs font-bold text-slate-500 uppercase tracking-wider px-1">Select Domain Extension:</h3>
       <div id="cardsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
     </div>
 
-    <!-- Official WHOIS Record Output View -->
+    <!-- WHOIS Style Output -->
     <div id="outputCard" class="hidden bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden space-y-0">
       
       <!-- Top Banner -->
       <div class="bg-slate-900 text-white p-5 border-b border-slate-800 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
-          <span class="text-xs text-blue-400 font-mono font-bold tracking-wider uppercase">Domain Registration Record</span>
+          <span class="text-xs text-blue-400 font-mono font-bold tracking-wider uppercase">Domain Record Inspection</span>
           <h2 id="outDomain" class="text-2xl md:text-3xl font-black font-mono text-white mt-0.5">---</h2>
         </div>
         <div class="flex items-center gap-3">
@@ -77,19 +77,19 @@
         </div>
       </div>
 
-      <!-- Overview Stats Grid -->
+      <!-- Stats Bar -->
       <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-slate-200 border-b border-slate-200 bg-slate-50 text-xs">
         <div class="p-4">
-          <span class="text-slate-500 block font-medium">HTTP Ping Response</span>
+          <span class="text-slate-500 block font-medium">Latency Ping</span>
           <strong id="outLatency" class="text-slate-900 font-mono text-sm mt-0.5 block">-- ms</strong>
         </div>
         <div class="p-4">
-          <span class="text-slate-500 block font-medium">Server Health Status</span>
+          <span class="text-slate-500 block font-medium">HTTP Status</span>
           <strong id="outCode" class="text-emerald-600 font-mono text-sm mt-0.5 block">200 OK</strong>
         </div>
         <div class="p-4">
-          <span class="text-slate-500 block font-medium">SSL / TLS Protocol</span>
-          <strong id="outSSL" class="text-slate-900 font-mono text-sm mt-0.5 block">TLS 1.3 Valid</strong>
+          <span class="text-slate-500 block font-medium">SSL Security</span>
+          <strong id="outSSL" class="text-slate-900 font-mono text-sm mt-0.5 block">TLS 1.3 Active</strong>
         </div>
         <div class="p-4">
           <span class="text-slate-500 block font-medium">WHOIS Status</span>
@@ -97,7 +97,7 @@
         </div>
       </div>
 
-      <!-- Classic Structured WHOIS Table -->
+      <!-- Structured Table -->
       <div class="p-6 space-y-6">
         <div>
           <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">
@@ -114,10 +114,6 @@
                 <td id="tableRegistrar" class="py-2 text-slate-800">MarkMonitor Inc. / Namecheap LLC</td>
               </tr>
               <tr>
-                <td class="py-2 text-slate-500">IANA ID:</td>
-                <td class="py-2 text-slate-800">292 / 1068</td>
-              </tr>
-              <tr>
                 <td class="py-2 text-slate-500">Domain Status:</td>
                 <td class="py-2 text-emerald-700 font-semibold">clientDeleteProhibited, clientTransferProhibited</td>
               </tr>
@@ -129,7 +125,7 @@
           </table>
         </div>
 
-        <!-- Tech Stack & Infrastructure Block -->
+        <!-- Tech Stack Badges -->
         <div>
           <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">
             Technical Stack Details
@@ -137,7 +133,7 @@
           <div id="outTechStack" class="flex flex-wrap gap-2"></div>
         </div>
 
-        <!-- Raw Text Simulated WHOIS Box -->
+        <!-- Raw WHOIS Box -->
         <div>
           <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-2">
             Raw WHOIS Registry Record
@@ -158,14 +154,14 @@ DNSSEC: unsigned
           </pre>
         </div>
 
-        <!-- Purchase Action Box -->
+        <!-- Purchase Box -->
         <div id="affiliateBox" class="bg-slate-50 border border-slate-200 rounded-lg p-4 flex flex-col sm:flex-row justify-between items-center gap-3">
           <div>
-            <h4 class="text-xs font-bold text-slate-900">Want to buy or check alternative extensions?</h4>
-            <p class="text-xs text-slate-500">Check live registration prices and availability on Namecheap.</p>
+            <h4 class="text-xs font-bold text-slate-900">Domain Registration & Renewal Deals</h4>
+            <p class="text-xs text-slate-500">Check availability or register extension on Namecheap.</p>
           </div>
           <a id="outAffiliateLink" href="#" target="_blank" rel="nofollow" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded transition shadow-sm shrink-0">
-            Check Domain Deals →
+            Check Deals →
           </a>
         </div>
 
@@ -177,7 +173,7 @@ DNSSEC: unsigned
 
   <!-- Footer -->
   <footer class="border-t border-slate-200 py-6 text-center text-xs text-slate-500 bg-white mt-auto">
-    SiteLook WHOIS Engine © 2026 — Public Registry Lookup Service
+    SiteLook Intelligence Platform © 2026 — Programmatic Domain Intelligence Engine
   </footer>
 
   <script>
@@ -213,10 +209,10 @@ DNSSEC: unsigned
           card.innerHTML = `
             <div>
               <h4 class="font-bold font-mono text-slate-900 text-sm">${fullDomain}</h4>
-              <span class="text-[11px] text-slate-400 font-mono">${tld.toUpperCase()} TLD Record</span>
+              <span class="text-[11px] text-slate-400 font-mono">${tld.toUpperCase()} Extension Record</span>
             </div>
             <button onclick="inspectSpecificDomain('${fullDomain}', true)" class="px-3 py-1.5 bg-slate-900 hover:bg-blue-600 text-white font-mono font-medium text-xs rounded transition">
-              WHOIS Record →
+              Inspect Record →
             </button>
           `;
           cardsContainer.appendChild(card);
@@ -257,7 +253,6 @@ DNSSEC: unsigned
       document.getElementById('outLatency').innerText = Math.floor(Math.random() * 35 + 20) + ' ms';
       document.getElementById('outAffiliateLink').href = `https://www.namecheap.com/domains/registration/results/?domain=${domain}`;
 
-      // Update Raw Box Text dynamically
       document.getElementById('rawWhoisBox').innerText = 
 `Domain Name: ${domain.toUpperCase()}
 Registry Domain ID: ${Math.floor(Math.random()*9000000+1000000)}_DOMAIN-VRSN
