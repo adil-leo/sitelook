@@ -10,9 +10,17 @@
   <!-- VIP Dynamic SVG Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><path d='M30 32 C30 26, 70 26, 70 36 C70 46, 30 54, 30 64 C30 74, 70 74, 70 68' stroke='white' stroke-width='12' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 
+  <!-- Inter Font for Crisp Ultra-Sharp Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body class="bg-slate-100 text-slate-800 min-h-screen flex flex-col font-sans selection:bg-blue-600 selection:text-white text-base">
+<body class="bg-slate-100 text-slate-900 min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white text-base">
 
   <!-- Fixed SITELOOK Header -->
   <header class="bg-slate-900 text-white border-b border-slate-800 py-4 px-4 md:px-8 shadow-md sticky top-0 z-50">
@@ -35,8 +43,8 @@
   <main class="max-w-5xl w-full mx-auto px-4 py-8 md:py-12 flex-1 flex flex-col">
     
     <!-- Search Bar -->
-    <div class="bg-white p-6 md:p-8 rounded-xl border border-slate-200 shadow-sm mb-8">
-      <h1 class="text-2xl md:text-3xl font-bold text-slate-900 mb-2">Inspect Any Domain or Brand</h1>
+    <div class="bg-white p-6 md:p-8 rounded-2xl border border-slate-200 shadow-sm mb-8">
+      <h1 class="text-2xl md:text-3xl font-extrabold text-slate-900 mb-2">Inspect Any Domain or Brand</h1>
       <p class="text-slate-600 text-sm md:text-base mb-5">Real-time WHOIS registration records, server health, response latency, and tech stack.</p>
       
       <form id="searchForm" class="flex flex-col sm:flex-row gap-3">
@@ -45,12 +53,12 @@
           id="domainInput" 
           placeholder="e.g. expireddomains.net or google.com" 
           required
-          class="flex-1 px-4 py-3.5 rounded-lg border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 font-mono text-sm md:text-base"
+          class="flex-1 px-4 py-3.5 rounded-xl border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 font-mono text-sm md:text-base"
         />
         <button 
           type="submit" 
           id="searchBtn"
-          class="px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm md:text-base rounded-lg transition shadow-sm shrink-0">
+          class="px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm md:text-base rounded-xl transition shadow-sm shrink-0">
           Inspect Now
         </button>
       </form>
@@ -63,7 +71,7 @@
     </div>
 
     <!-- WHOIS Style Output -->
-    <div id="outputCard" class="hidden bg-white border border-slate-200 rounded-xl shadow-sm overflow-hidden space-y-0 mb-10">
+    <div id="outputCard" class="hidden bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden space-y-0 mb-10">
       
       <!-- Top Banner -->
       <div class="bg-slate-900 text-white p-6 border-b border-slate-800 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
@@ -142,7 +150,7 @@
           <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">
             Raw WHOIS Registry Record
           </h3>
-          <pre id="rawWhoisBox" class="bg-slate-950 text-slate-300 p-4 rounded-lg font-mono text-xs md:text-sm leading-relaxed overflow-x-auto border border-slate-800">
+          <pre id="rawWhoisBox" class="bg-slate-950 text-slate-300 p-4 rounded-xl font-mono text-xs md:text-sm leading-relaxed overflow-x-auto border border-slate-800">
 Domain Name: DOMAIN.COM
 Registry Domain ID: 2138923_DOMAIN-VRSN
 Registrar WHOIS Server: whois.registrar.com
@@ -164,7 +172,7 @@ DNSSEC: unsigned
             <h4 class="text-sm md:text-base font-bold text-slate-900">Domain Registration & Renewal Deals</h4>
             <p class="text-xs md:text-sm text-slate-600">Check availability or register extension on Namecheap.</p>
           </div>
-          <a id="outAffiliateLink" href="#" target="_blank" rel="nofollow" class="w-full sm:w-auto text-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-lg transition shadow-sm shrink-0">
+          <a id="outAffiliateLink" href="#" target="_blank" rel="nofollow" class="w-full sm:w-auto text-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm rounded-xl transition shadow-sm shrink-0">
             Check Deals →
           </a>
         </div>
@@ -173,88 +181,151 @@ DNSSEC: unsigned
 
     </div>
 
-    <!-- Everything You Need Section (WHOIS Style 3 Cards) -->
+    <!-- Everything You Need Section (Exact Match to Reference Image) -->
     <section class="mt-4 mb-10">
-      <div class="text-center mb-8">
+      <div class="text-center mb-10">
         <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">Everything you need to succeed online</h2>
-        <p class="text-slate-600 text-sm md:text-base mt-1">Powerful tools and services to build, grow and protect your online presence</p>
+        <p class="text-slate-600 text-sm md:text-base mt-1.5">Powerful tools and services to build, grow and protect your online presence</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <!-- Card 1: AI Builder -->
-        <div class="bg-white border-2 border-indigo-200 rounded-2xl p-6 relative flex flex-col justify-between shadow-sm hover:shadow-md transition">
-          <span class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-indigo-600 text-white text-xs font-bold tracking-wider uppercase px-3.5 py-1 rounded-full shadow-sm">
+        <!-- CARD 1: AI WEBSITE BUILDER (Purple Theme) -->
+        <div class="bg-[#f8f6ff] border border-[#e0d6fe] rounded-2xl p-6 relative flex flex-col justify-between shadow-sm hover:shadow-md transition">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#6338f1] text-white text-[10px] font-bold tracking-wider uppercase px-3 py-1 rounded-md shadow-sm flex items-center gap-1">
             ★ MOST POPULAR
           </span>
           <div>
-            <div class="w-12 h-12 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center font-bold text-2xl mb-4">✨</div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">AI Website Builder</h3>
-            <p class="text-sm text-slate-600 mb-5 leading-relaxed">Create a stunning website in minutes with our AI powered builder.</p>
+            <!-- Illustration Header Mock -->
+            <div class="w-full bg-white rounded-xl p-4 border border-[#e2d8fe] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+              <div class="w-12 h-12 bg-[#ede9fe] text-[#6338f1] rounded-xl flex items-center justify-center font-black text-2xl mb-2">✦</div>
+              <span class="text-xs font-extrabold text-slate-800">Build your dream website</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-[#2e1d6b] mb-2">AI Website Builder</h3>
+            <p class="text-xs md:text-sm text-[#4c3a82] mb-6 leading-relaxed font-medium">Create a stunning website in minutes with our AI powered builder</p>
             
-            <ul class="space-y-2.5 text-sm text-slate-700 mb-6 font-medium">
-              <li class="flex items-center gap-2.5"><span class="text-indigo-600 font-bold">✓</span> AI generated layouts</li>
-              <li class="flex items-center gap-2.5"><span class="text-indigo-600 font-bold">✓</span> Drag & drop editor</li>
-              <li class="flex items-center gap-2.5"><span class="text-indigo-600 font-bold">✓</span> Mobile responsive</li>
-              <li class="flex items-center gap-2.5"><span class="text-indigo-600 font-bold">✓</span> No coding required</li>
+            <ul class="space-y-3 text-xs md:text-sm text-[#2e1d6b] mb-8 font-semibold">
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                AI generated layouts
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Drag & drop editor
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Mobile responsive
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#6338f1] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                No coding required
+              </li>
             </ul>
           </div>
+
           <div>
             <div class="mb-4">
-              <span class="text-xs text-slate-500 block font-medium">Starting at</span>
-              <span class="text-2xl md:text-3xl font-black text-slate-900">$2.48</span><span class="text-sm text-slate-600 font-semibold">/mo</span>
+              <span class="text-xs text-slate-600 block font-semibold">Starting at</span>
+              <div class="flex items-baseline gap-0.5">
+                <span class="text-3xl font-black text-[#1e1347]">$2.48</span>
+                <span class="text-sm font-bold text-slate-700">/mo</span>
+              </div>
             </div>
-            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm uppercase tracking-wider rounded-xl transition shadow-sm">
+            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3.5 bg-[#6338f1] hover:bg-[#522cd0] text-white font-extrabold text-xs tracking-wider uppercase rounded-xl transition shadow-sm">
               START BUILDING
             </a>
           </div>
         </div>
 
-        <!-- Card 2: Web Hosting -->
-        <div class="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <!-- CARD 2: WEB HOSTING (Blue Theme) -->
+        <div class="bg-[#f0f6ff] border border-[#d2e3fc] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center font-bold text-2xl mb-4">☁️</div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">Web Hosting</h3>
-            <p class="text-sm text-slate-600 mb-5 leading-relaxed">Fast, secure and reliable hosting for your websites.</p>
+            <!-- Illustration Header Mock -->
+            <div class="w-full bg-white rounded-xl p-4 border border-[#d2e3fc] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+              <div class="w-12 h-12 bg-[#e0edff] text-[#1863ed] rounded-xl flex items-center justify-center font-black text-2xl mb-2">☁️</div>
+              <span class="text-xs font-extrabold text-slate-800">Fast Cloud Hosting</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-[#0c377d] mb-2">Web Hosting</h3>
+            <p class="text-xs md:text-sm text-[#27539b] mb-6 leading-relaxed font-medium">Fast, secure and reliable hosting for your websites</p>
             
-            <ul class="space-y-2.5 text-sm text-slate-700 mb-6 font-medium">
-              <li class="flex items-center gap-2.5"><span class="text-blue-600 font-bold">✓</span> Blazing fast loading times</li>
-              <li class="flex items-center gap-2.5"><span class="text-blue-600 font-bold">✓</span> Free SSL Certificate</li>
-              <li class="flex items-center gap-2.5"><span class="text-blue-600 font-bold">✓</span> 24/7 Expert Support</li>
-              <li class="flex items-center gap-2.5"><span class="text-blue-600 font-bold">✓</span> 99.9% Uptime Guarantee</li>
+            <ul class="space-y-3 text-xs md:text-sm text-[#0c377d] mb-8 font-semibold">
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Blazing fast loading times
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Free SSL Certificate
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                24/7 Expert Support
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#1863ed] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                99.9% Uptime Guarantee
+              </li>
             </ul>
           </div>
+
           <div>
             <div class="mb-4">
-              <span class="text-xs text-slate-500 block font-medium">Starting at</span>
-              <span class="text-2xl md:text-3xl font-black text-slate-900">$3.48</span><span class="text-sm text-slate-600 font-semibold">/mo</span>
+              <span class="text-xs text-slate-600 block font-semibold">Starting at</span>
+              <div class="flex items-baseline gap-0.5">
+                <span class="text-3xl font-black text-[#082352]">$3.48</span>
+                <span class="text-sm font-bold text-slate-700">/mo</span>
+              </div>
             </div>
-            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm uppercase tracking-wider rounded-xl transition shadow-sm">
+            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3.5 bg-[#1863ed] hover:bg-[#1250c4] text-white font-extrabold text-xs tracking-wider uppercase rounded-xl transition shadow-sm">
               GET STARTED
             </a>
           </div>
         </div>
 
-        <!-- Card 3: WordPress Hosting -->
-        <div class="bg-white border border-emerald-200 rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+        <!-- CARD 3: WORDPRESS HOSTING (Green Theme) -->
+        <div class="bg-[#f0faf5] border border-[#c6f0d8] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <div class="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-xl flex items-center justify-center font-bold text-2xl mb-4">🌐</div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">WordPress Hosting</h3>
-            <p class="text-sm text-slate-600 mb-5 leading-relaxed">Optimized hosting built specifically for WordPress websites.</p>
+            <!-- Illustration Header Mock -->
+            <div class="w-full bg-white rounded-xl p-4 border border-[#c6f0d8] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
+              <div class="w-12 h-12 bg-[#dcfce7] text-[#0e9f6e] rounded-xl flex items-center justify-center font-black text-2xl mb-2">🌐</div>
+              <span class="text-xs font-extrabold text-slate-800">WordPress Optimized</span>
+            </div>
+
+            <h3 class="text-2xl font-black text-[#084c35] mb-2">WordPress Hosting</h3>
+            <p class="text-xs md:text-sm text-[#186c4f] mb-6 leading-relaxed font-medium">Optimized hosting built specifically for WordPress websites</p>
             
-            <ul class="space-y-2.5 text-sm text-slate-700 mb-6 font-medium">
-              <li class="flex items-center gap-2.5"><span class="text-emerald-600 font-bold">✓</span> Ultra Fast Performance</li>
-              <li class="flex items-center gap-2.5"><span class="text-emerald-600 font-bold">✓</span> WordPress Auto Updates</li>
-              <li class="flex items-center gap-2.5"><span class="text-emerald-600 font-bold">✓</span> Automatic Setup & Caching</li>
-              <li class="flex items-center gap-2.5"><span class="text-emerald-600 font-bold">✓</span> Free SSL Certificate</li>
+            <ul class="space-y-3 text-xs md:text-sm text-[#084c35] mb-8 font-semibold">
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Ultra Fast Performance
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                WordPress Auto Updates
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Automatic Setup & Caching
+              </li>
+              <li class="flex items-center gap-2.5">
+                <span class="w-5 h-5 rounded-full bg-[#0e9f6e] text-white text-[10px] flex items-center justify-center font-bold shrink-0">✓</span>
+                Free SSL Certificate
+              </li>
             </ul>
           </div>
+
           <div>
             <div class="mb-4">
-              <span class="text-xs text-slate-500 block font-medium">Starting at</span>
-              <span class="text-2xl md:text-3xl font-black text-slate-900">$3.48</span><span class="text-sm text-slate-600 font-semibold">/mo</span>
+              <span class="text-xs text-slate-600 block font-semibold">Starting at</span>
+              <div class="flex items-baseline gap-0.5">
+                <span class="text-3xl font-black text-[#04281c]">$3.48</span>
+                <span class="text-sm font-bold text-slate-700">/mo</span>
+              </div>
             </div>
-            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm uppercase tracking-wider rounded-xl transition shadow-sm">
+            <a href="https://www.namecheap.com" target="_blank" rel="nofollow" class="block text-center w-full py-3.5 bg-[#0e9f6e] hover:bg-[#0b855c] text-white font-extrabold text-xs tracking-wider uppercase rounded-xl transition shadow-sm">
               VIEW PLANS
             </a>
           </div>
@@ -263,20 +334,20 @@ DNSSEC: unsigned
       </div>
 
       <!-- Trust Ribbon (Bottom Features Row) -->
-      <div class="bg-white border border-slate-200 rounded-xl p-4 mt-8 grid grid-cols-2 md:grid-cols-5 gap-4 text-center divide-x-0 md:divide-x divide-slate-100 shadow-sm">
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-slate-700">
+      <div class="bg-white border border-slate-200 rounded-2xl p-4 mt-8 grid grid-cols-2 md:grid-cols-5 gap-4 text-center divide-x-0 md:divide-x divide-slate-100 shadow-sm">
+        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
           <span class="text-blue-600 text-base md:text-lg">🔒</span> Free SSL
         </div>
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-slate-700">
+        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
           <span class="text-blue-600 text-base md:text-lg">🚀</span> Ultra Fast
         </div>
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-slate-700">
+        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
           <span class="text-blue-600 text-base md:text-lg">⚡</span> 99.9% Uptime
         </div>
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-slate-700">
+        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
           <span class="text-blue-600 text-base md:text-lg">🛡️</span> 30-Day Guarantee
         </div>
-        <div class="col-span-2 md:col-span-1 flex items-center justify-center gap-2 text-xs md:text-sm font-semibold text-slate-700">
+        <div class="col-span-2 md:col-span-1 flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
           <span class="text-blue-600 text-base md:text-lg">🎧</span> 24/7 Support
         </div>
       </div>
@@ -286,7 +357,7 @@ DNSSEC: unsigned
   </main>
 
   <!-- Footer -->
-  <footer class="border-t border-slate-200 py-6 text-center text-sm text-slate-500 bg-white mt-auto">
+  <footer class="border-t border-slate-200 py-6 text-center text-sm font-medium text-slate-500 bg-white mt-auto">
     SiteLook Intelligence Platform — Programmatic Domain Intelligence Engine
   </footer>
 
@@ -319,13 +390,13 @@ DNSSEC: unsigned
         TLDS.forEach(tld => {
           const fullDomain = cleanInput + tld;
           const card = document.createElement('div');
-          card.className = 'bg-white border border-slate-200 rounded-lg p-4 flex justify-between items-center hover:border-blue-500 transition shadow-sm';
+          card.className = 'bg-white border border-slate-200 rounded-xl p-4 flex justify-between items-center hover:border-blue-500 transition shadow-sm';
           card.innerHTML = `
             <div>
               <h4 class="font-bold font-mono text-slate-900 text-sm md:text-base">${fullDomain}</h4>
               <span class="text-xs text-slate-500 font-mono">${tld.toUpperCase()} Extension Record</span>
             </div>
-            <button onclick="inspectSpecificDomain('${fullDomain}', true)" class="px-3.5 py-2 bg-slate-900 hover:bg-blue-600 text-white font-mono font-medium text-xs md:text-sm rounded transition">
+            <button onclick="inspectSpecificDomain('${fullDomain}', true)" class="px-3.5 py-2 bg-slate-900 hover:bg-blue-600 text-white font-mono font-medium text-xs md:text-sm rounded-lg transition">
               Inspect →
             </button>
           `;
@@ -357,7 +428,7 @@ DNSSEC: unsigned
       techContainer.innerHTML = '';
       techBadges.forEach(tech => {
         const span = document.createElement('span');
-        span.className = 'px-3 py-1 text-xs md:text-sm font-mono bg-slate-100 text-slate-800 border border-slate-200 rounded';
+        span.className = 'px-3 py-1 text-xs md:text-sm font-mono bg-slate-100 text-slate-800 border border-slate-200 rounded-md';
         span.innerText = tech;
         techContainer.appendChild(span);
       });
