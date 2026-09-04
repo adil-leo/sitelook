@@ -7,10 +7,10 @@
   <title>SiteLook — Universal Domain Intelligence Engine</title>
   <meta name="description" content="Instant live domain lookup, WHOIS records, response latency, and tech stack detection.">
   
-  <!-- VIP Dynamic SVG Favicon -->
+  <!-- Dynamic SVG Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><path d='M30 32 C30 26, 70 26, 70 36 C70 46, 30 54, 30 64 C30 74, 70 74, 70 68' stroke='white' stroke-width='12' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 
-  <!-- Inter Font for Crisp Ultra-Sharp Typography -->
+  <!-- Inter Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -18,62 +18,184 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-family: 'Inter', sans-serif; }
+    .hero-bg {
+      background: linear-gradient(135deg, #070b19 0%, #0b1a48 40%, #0d2c7d 70%, #1545b5 100%);
+    }
   </style>
 </head>
-<body class="bg-slate-100 text-slate-900 min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white text-base">
+<body class="bg-white text-slate-900 min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white text-base">
 
-  <!-- Fixed SITELOOK Header -->
-  <header class="bg-slate-900 text-white border-b border-slate-800 py-4 px-4 md:px-8 shadow-md sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
+  <!-- Top Dark Blue Hero Section -->
+  <div class="hero-bg text-white relative overflow-hidden border-b border-blue-900/50">
+    
+    <!-- Background Glow Accent -->
+    <div class="absolute -top-40 -right-40 w-[600px] h-[600px] bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <!-- Header / Navbar Inside Hero -->
+    <header class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex justify-between items-center relative z-10 border-b border-white/10">
       <div class="flex items-center space-x-3">
-        <div class="w-9 h-9 rounded-lg bg-blue-600 flex items-center justify-center font-black text-white text-xl tracking-wider shadow-sm">S</div>
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-orange-500 flex items-center justify-center font-black text-white text-2xl shadow-lg">S</div>
         <div>
-          <span class="text-xl md:text-2xl font-black tracking-wide text-white block leading-none">SITELOOK</span>
-          <span class="text-xs text-slate-400 font-mono tracking-widest uppercase">Domain Intelligence Engine</span>
+          <span class="text-2xl font-black tracking-wide text-white block leading-none">SITELOOK</span>
+          <span class="text-[10px] text-blue-200 font-mono tracking-widest uppercase">Domain Intelligence Engine</span>
         </div>
       </div>
-      <div class="flex items-center space-x-2 text-xs md:text-sm font-mono text-emerald-400 bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700">
+      
+      <div class="flex items-center space-x-3 text-xs md:text-sm font-mono text-emerald-400 bg-slate-900/70 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-emerald-500/30 shadow-inner">
         <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
         <span>Engine Active</span>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Main Container -->
-  <main class="max-w-5xl w-full mx-auto px-4 py-8 md:py-12 flex-1 flex flex-col">
+    <!-- Main Hero Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Side: Search & Headings -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="space-y-2">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-white leading-tight">
+              Find the perfect <br class="hidden sm:block"/>domain name
+            </h1>
+            <p class="text-blue-100/80 text-base md:text-lg font-normal">
+              Start your online journey with the right domain
+            </p>
+          </div>
+
+          <!-- Main Hero Search Bar -->
+          <form id="searchForm" class="bg-white p-2 rounded-2xl shadow-2xl flex flex-col sm:flex-row gap-2 max-w-2xl border border-white/20">
+            <div class="flex-1 flex items-center px-3 gap-2">
+              <span class="text-slate-400 text-lg">🔍</span>
+              <input 
+                type="text" 
+                id="domainInput" 
+                placeholder="Find a great domain name" 
+                required
+                class="w-full py-3.5 text-slate-900 placeholder-slate-400 focus:outline-none font-medium text-base bg-transparent"
+              />
+            </div>
+            <button 
+              type="submit" 
+              id="searchBtn"
+              class="px-8 py-3.5 bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-extrabold text-sm md:text-base rounded-xl transition shadow-lg shrink-0">
+              Find my domain
+            </button>
+          </form>
+
+          <!-- TLD Quick Badges -->
+          <div class="flex flex-wrap items-center gap-2 pt-1 text-xs md:text-sm">
+            <span class="bg-white/10 backdrop-blur-md hover:bg-white/20 px-3 py-1.5 rounded-lg border border-white/10 font-mono text-blue-100 cursor-pointer transition">.space <b class="text-amber-400">$1.18</b></span>
+            <span class="bg-white/10 backdrop-blur-md hover:bg-white/20 px-3 py-1.5 rounded-lg border border-white/10 font-mono text-blue-100 cursor-pointer transition">.fun <b class="text-amber-400">$1.48</b></span>
+            <span class="bg-white/10 backdrop-blur-md hover:bg-white/20 px-3 py-1.5 rounded-lg border border-white/10 font-mono text-blue-100 cursor-pointer transition">.icu <b class="text-amber-400">$1.48</b></span>
+            <span class="bg-white/10 backdrop-blur-md hover:bg-white/20 px-3 py-1.5 rounded-lg border border-white/10 font-mono text-blue-100 cursor-pointer transition">.shop <b class="text-amber-400">$1.88</b></span>
+            <span class="bg-white/10 backdrop-blur-md hover:bg-white/20 px-3 py-1.5 rounded-lg border border-white/10 font-mono text-blue-100 cursor-pointer transition">.top <b class="text-amber-400">$1.98</b></span>
+          </div>
+
+          <!-- Feature Bullets Line -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 border-t border-white/10 text-xs md:text-sm">
+            <div class="flex items-start gap-2.5">
+              <span class="text-amber-400 text-base">🏷️</span>
+              <div>
+                <strong class="block text-white font-bold">Great Prices</strong>
+                <span class="text-blue-200/70 text-xs">Unbeatable deals</span>
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="text-amber-400 text-base">🌐</span>
+              <div>
+                <strong class="block text-white font-bold">Free Domain Services</strong>
+                <span class="text-blue-200/70 text-xs">DNS, forwarding & more</span>
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5">
+              <span class="text-amber-400 text-base">🎧</span>
+              <div>
+                <strong class="block text-white font-bold">24/7 Expert Support</strong>
+                <span class="text-blue-200/70 text-xs">Always here to help</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Side: Laptop + Globe + Gamla Vector Set -->
+        <div class="lg:col-span-5 flex justify-center items-center relative">
+          
+          <div class="relative w-full max-w-md p-2">
+            
+            <!-- Laptop Mockup -->
+            <div class="bg-slate-800 rounded-2xl p-3 shadow-2xl border border-slate-700/80 relative z-10">
+              <!-- Laptop Screen -->
+              <div class="bg-slate-100 rounded-xl overflow-hidden text-slate-900 border border-slate-300 shadow-inner p-4 space-y-3">
+                <div class="flex items-center justify-between border-b border-slate-200 pb-2">
+                  <div class="flex gap-1.5">
+                    <span class="w-2.5 h-2.5 rounded-full bg-red-400 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-yellow-400 inline-block"></span>
+                    <span class="w-2.5 h-2.5 rounded-full bg-green-400 inline-block"></span>
+                  </div>
+                  <span class="text-[10px] font-mono text-slate-400">YourBrand.com</span>
+                </div>
+                <div class="bg-emerald-50 border border-emerald-200 rounded-lg p-2 text-center text-xs font-bold text-emerald-700 flex items-center justify-center gap-1">
+                  <span>✔</span> Domain is available!
+                </div>
+                <!-- Price List Mock inside Laptop -->
+                <div class="space-y-1.5 text-xs font-mono">
+                  <div class="flex justify-between items-center bg-white p-1.5 rounded border border-slate-200">
+                    <span class="font-bold text-slate-700">.com</span>
+                    <span class="text-blue-600 font-bold">$8.88</span>
+                  </div>
+                  <div class="flex justify-between items-center bg-white p-1.5 rounded border border-slate-200">
+                    <span class="font-bold text-slate-700">.net</span>
+                    <span class="text-blue-600 font-bold">$10.88</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Laptop Stand -->
+            <div class="w-full h-4 bg-slate-700 rounded-b-xl shadow-md border-t border-slate-600 relative z-10"></div>
+
+            <!-- Left: Globe SVG Vector -->
+            <div class="absolute -left-6 bottom-2 z-20 w-20 h-24 flex flex-col items-center drop-shadow-xl">
+              <svg class="w-16 h-16 text-blue-400 animate-spin-slow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10" fill="#2563eb" fill-opacity="0.2" stroke="#60a5fa" stroke-width="1.5"/>
+                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke="#93c5fd"/>
+              </svg>
+              <div class="w-8 h-3 bg-slate-600 rounded-full mt-1 border border-slate-500"></div>
+            </div>
+
+            <!-- Right: Gamla (Plant Pot) Vector -->
+            <div class="absolute -right-4 bottom-2 z-20 flex flex-col items-center drop-shadow-xl">
+              <!-- Leaves -->
+              <div class="text-2xl -mb-1">🪴</div>
+              <!-- Pot base -->
+              <div class="w-8 h-7 bg-amber-100 rounded-b-lg border border-amber-300 shadow-inner"></div>
+            </div>
+
+            <!-- Bottom Right: Coffee Cup -->
+            <div class="absolute right-8 -bottom-3 z-30 bg-white rounded-lg p-1.5 shadow-lg border border-slate-200 flex items-center gap-1">
+              <span class="text-xs">☕</span>
+              <span class="text-[9px] font-bold text-slate-700">SITE</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Lower Main Container (White Background Area) -->
+  <main class="max-w-6xl w-full mx-auto px-4 py-10 flex-1 flex flex-col">
     
-    <!-- Search Bar -->
-    <div class="bg-white p-6 md:p-8 rounded-2xl border border-slate-200 shadow-sm mb-8">
-      <h1 class="text-2xl md:text-3xl font-extrabold text-slate-900 mb-2">Inspect Any Domain or Brand</h1>
-      <p class="text-slate-600 text-sm md:text-base mb-5">Real-time WHOIS registration records, server health, response latency, and tech stack.</p>
-      
-      <form id="searchForm" class="flex flex-col sm:flex-row gap-3">
-        <input 
-          type="text" 
-          id="domainInput" 
-          placeholder="e.g. expireddomains.net or google.com" 
-          required
-          class="flex-1 px-4 py-3.5 rounded-xl border border-slate-300 text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 font-mono text-sm md:text-base"
-        />
-        <button 
-          type="submit" 
-          id="searchBtn"
-          class="px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm md:text-base rounded-xl transition shadow-sm shrink-0">
-          Inspect Now
-        </button>
-      </form>
-    </div>
-
-    <!-- TLD Selector (Only for Brand Searches) -->
-    <div id="resultsList" class="hidden mb-8 space-y-3">
+    <!-- Dynamic TLD Selector Results (When User Searches) -->
+    <div id="resultsList" class="hidden mb-10 space-y-3">
       <h3 class="text-sm font-bold text-slate-500 uppercase tracking-wider px-1">Select Domain Extension:</h3>
-      <div id="cardsContainer" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+      <div id="cardsContainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"></div>
     </div>
 
-    <!-- WHOIS Style Output -->
-    <div id="outputCard" class="hidden bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden space-y-0 mb-10">
-      
-      <!-- Top Banner -->
+    <!-- WHOIS Detailed Output Card -->
+    <div id="outputCard" class="hidden bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden space-y-0 mb-12">
       <div class="bg-slate-900 text-white p-6 border-b border-slate-800 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
           <span class="text-xs md:text-sm text-blue-400 font-mono font-bold tracking-wider uppercase">Domain Record Inspection</span>
@@ -89,7 +211,6 @@
         </div>
       </div>
 
-      <!-- Stats Bar -->
       <div class="grid grid-cols-2 md:grid-cols-4 divide-x divide-y md:divide-y-0 divide-slate-200 border-b border-slate-200 bg-slate-50 text-sm">
         <div class="p-4 md:p-5">
           <span class="text-slate-500 block font-medium text-xs md:text-sm">Latency Ping</span>
@@ -109,7 +230,6 @@
         </div>
       </div>
 
-      <!-- Structured Table -->
       <div class="p-6 md:p-8 space-y-6">
         <div>
           <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-4">
@@ -137,7 +257,6 @@
           </table>
         </div>
 
-        <!-- Tech Stack Badges -->
         <div>
           <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">
             Technical Stack Details
@@ -145,7 +264,6 @@
           <div id="outTechStack" class="flex flex-wrap gap-2"></div>
         </div>
 
-        <!-- Raw WHOIS Box -->
         <div>
           <h3 class="text-xs md:text-sm font-bold text-slate-900 uppercase tracking-wider border-b border-slate-200 pb-2 mb-3">
             Raw WHOIS Registry Record
@@ -166,7 +284,6 @@ DNSSEC: unsigned
           </pre>
         </div>
 
-        <!-- Purchase Box -->
         <div id="affiliateBox" class="bg-slate-50 border border-slate-200 rounded-xl p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
           <div>
             <h4 class="text-sm md:text-base font-bold text-slate-900">Domain Registration & Renewal Deals</h4>
@@ -176,13 +293,11 @@ DNSSEC: unsigned
             Check Deals →
           </a>
         </div>
-
       </div>
-
     </div>
 
-    <!-- Everything You Need Section (Exact Match to Reference Image) -->
-    <section class="mt-4 mb-10">
+    <!-- Everything You Need Section (White Background Cards) -->
+    <section class="mt-2 mb-10">
       <div class="text-center mb-10">
         <h2 class="text-2xl md:text-3xl font-extrabold text-slate-900">Everything you need to succeed online</h2>
         <p class="text-slate-600 text-sm md:text-base mt-1.5">Powerful tools and services to build, grow and protect your online presence</p>
@@ -190,13 +305,12 @@ DNSSEC: unsigned
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <!-- CARD 1: AI WEBSITE BUILDER (Purple Theme) -->
+        <!-- CARD 1: AI WEBSITE BUILDER -->
         <div class="bg-[#f8f6ff] border border-[#e0d6fe] rounded-2xl p-6 relative flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#6338f1] text-white text-[10px] font-bold tracking-wider uppercase px-3 py-1 rounded-md shadow-sm flex items-center gap-1">
             ★ MOST POPULAR
           </span>
           <div>
-            <!-- Illustration Header Mock -->
             <div class="w-full bg-white rounded-xl p-4 border border-[#e2d8fe] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
               <div class="w-12 h-12 bg-[#ede9fe] text-[#6338f1] rounded-xl flex items-center justify-center font-black text-2xl mb-2">✦</div>
               <span class="text-xs font-extrabold text-slate-800">Build your dream website</span>
@@ -239,10 +353,9 @@ DNSSEC: unsigned
           </div>
         </div>
 
-        <!-- CARD 2: WEB HOSTING (Blue Theme) -->
+        <!-- CARD 2: WEB HOSTING -->
         <div class="bg-[#f0f6ff] border border-[#d2e3fc] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <!-- Illustration Header Mock -->
             <div class="w-full bg-white rounded-xl p-4 border border-[#d2e3fc] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
               <div class="w-12 h-12 bg-[#e0edff] text-[#1863ed] rounded-xl flex items-center justify-center font-black text-2xl mb-2">☁️</div>
               <span class="text-xs font-extrabold text-slate-800">Fast Cloud Hosting</span>
@@ -285,10 +398,9 @@ DNSSEC: unsigned
           </div>
         </div>
 
-        <!-- CARD 3: WORDPRESS HOSTING (Green Theme) -->
+        <!-- CARD 3: WORDPRESS HOSTING -->
         <div class="bg-[#f0faf5] border border-[#c6f0d8] rounded-2xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition">
           <div>
-            <!-- Illustration Header Mock -->
             <div class="w-full bg-white rounded-xl p-4 border border-[#c6f0d8] mb-6 shadow-sm flex flex-col items-center justify-center text-center">
               <div class="w-12 h-12 bg-[#dcfce7] text-[#0e9f6e] rounded-xl flex items-center justify-center font-black text-2xl mb-2">🌐</div>
               <span class="text-xs font-extrabold text-slate-800">WordPress Optimized</span>
@@ -331,25 +443,6 @@ DNSSEC: unsigned
           </div>
         </div>
 
-      </div>
-
-      <!-- Trust Ribbon (Bottom Features Row) -->
-      <div class="bg-white border border-slate-200 rounded-2xl p-4 mt-8 grid grid-cols-2 md:grid-cols-5 gap-4 text-center divide-x-0 md:divide-x divide-slate-100 shadow-sm">
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
-          <span class="text-blue-600 text-base md:text-lg">🔒</span> Free SSL
-        </div>
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
-          <span class="text-blue-600 text-base md:text-lg">🚀</span> Ultra Fast
-        </div>
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
-          <span class="text-blue-600 text-base md:text-lg">⚡</span> 99.9% Uptime
-        </div>
-        <div class="flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
-          <span class="text-blue-600 text-base md:text-lg">🛡️</span> 30-Day Guarantee
-        </div>
-        <div class="col-span-2 md:col-span-1 flex items-center justify-center gap-2 text-xs md:text-sm font-bold text-slate-800">
-          <span class="text-blue-600 text-base md:text-lg">🎧</span> 24/7 Support
-        </div>
       </div>
 
     </section>
@@ -454,6 +547,7 @@ DNSSEC: unsigned
 Raw Query Status: 200 OK (Processed Successfully)`;
 
       outputCard.classList.remove('hidden');
+      outputCard.scrollIntoView({ behavior: 'smooth' });
     }
 
     closeDetailBtn.addEventListener('click', () => {
