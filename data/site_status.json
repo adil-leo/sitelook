@@ -3,36 +3,36 @@
     "domain": "google.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 121.7,
+    "response_time_ms": 80.82,
     "server": "gws",
     "tech_stack": [],
-    "last_checked": "2026-09-04T06:01:42.663071Z"
+    "last_checked": "2026-09-04T06:15:28.257565Z"
   },
   {
     "domain": "github.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 60.59,
+    "response_time_ms": 33.0,
     "server": "github.com",
     "tech_stack": [],
-    "last_checked": "2026-09-04T06:01:42.663218Z"
+    "last_checked": "2026-09-04T06:15:28.257742Z"
   },
   {
     "domain": "amazon.com",
     "status": "Issues Detected",
     "status_code": 503,
-    "response_time_ms": 313.24,
+    "response_time_ms": 132.95,
     "server": "Server",
     "tech_stack": [],
-    "last_checked": "2026-09-04T06:01:42.663356Z"
+    "last_checked": "2026-09-04T06:15:28.257832Z"
   },
   {
     "domain": "wordpress.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 205.25,
+    "response_time_ms": 29.52,
     "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-04T06:01:42.663443Z"
+    "last_checked": "2026-09-04T06:15:28.257908Z"
   }
 ]
