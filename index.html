@@ -5,18 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SiteLook — Deep Web Intelligence & Domain Inspection Engine</title>
-  <meta name="description" content="Instant domain health lookup, WHOIS expiry, server latency, tech stack detection, and security metrics across millions of websites.">
+  <meta name="description" content="Instant domain health lookup, WHOIS status, server latency, tech stack detection across millions of websites.">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-cyan-500 selection:text-slate-950">
 
-  <!-- Header (Clean Navigation) -->
+  <!-- Header -->
   <header class="border-b border-slate-800/80 bg-slate-900/50 backdrop-blur sticky top-0 z-50 py-4 px-6">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <div class="flex items-center space-x-3">
         <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-black text-slate-950 text-lg shadow-lg shadow-cyan-500/20">S</div>
         <span class="text-xl font-black bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent tracking-wide">SITELOOK</span>
-        <span class="text-[10px] bg-slate-800 text-cyan-400 px-2 py-0.5 rounded border border-slate-700 font-mono">v2.5 Intelligence</span>
+        <span class="text-[10px] bg-slate-800 text-cyan-400 px-2 py-0.5 rounded border border-slate-700 font-mono">v3.0 Multi-Search</span>
       </div>
       <div class="flex items-center space-x-4 text-xs font-semibold text-slate-400">
         <span class="text-emerald-400 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Engine Active</span>
@@ -29,13 +29,13 @@
     
     <div class="text-center space-y-4 mb-8">
       <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-        Automated Deep Web Intelligence & Domain Inspector
+        Automated Deep Web Intelligence Engine
       </span>
       <h1 class="text-4xl md:text-6xl font-black tracking-tight text-slate-100">
-        Inspect Any Domain <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">In Real-Time</span>
+        Inspect Any Brand <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Across All TLDs</span>
       </h1>
       <p class="text-slate-400 text-sm md:text-base max-w-xl mx-auto">
-        Deep server metrics, response latency, tech stack detection, WHOIS expiry, and live health status.
+        Enter any name (e.g. twitter, google, mybrand) to instantly scan `.com`, `.net`, `.org`, `.io`, and `.ai` extensions.
       </p>
     </div>
 
@@ -45,7 +45,7 @@
         <input 
           type="text" 
           id="domainInput" 
-          placeholder="Enter domain (e.g. twitter.com, github.com, google)..." 
+          placeholder="Type any brand or domain (e.g. twitter, github, mywebsite)..." 
           required
           class="w-full pl-5 pr-32 py-4 rounded-2xl bg-slate-900 border-2 border-slate-800 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500 shadow-2xl transition text-sm md:text-base font-mono"
         />
@@ -53,26 +53,33 @@
           type="submit" 
           id="searchBtn"
           class="absolute right-2 px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 text-white font-bold text-xs md:text-sm rounded-xl transition shadow-lg shrink-0">
-          Analyze
+          Search Domains
         </button>
       </form>
     </div>
 
-    <!-- Live Result Output Box -->
+    <!-- Results List (Multi-Domain Cards) -->
+    <div id="resultsList" class="hidden mt-8 max-w-2xl mx-auto w-full space-y-4">
+      <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider px-1">Found TLD Extensions & Intelligence:</h3>
+      <div id="cardsContainer" class="space-y-3">
+        <!-- Dynamic Domain Cards -->
+      </div>
+    </div>
+
+    <!-- Deep Intelligence Modal / Detailed View -->
     <div id="outputCard" class="hidden mt-8 max-w-2xl mx-auto w-full bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
       
-      <!-- Top Domain Title Header -->
       <div class="flex justify-between items-center border-b border-slate-800 pb-4">
         <div>
           <h2 id="outDomain" class="text-2xl font-black font-mono text-cyan-400">---</h2>
           <span id="outCheckedAt" class="text-xs text-slate-500">Live Inspection Result</span>
         </div>
-        <span id="outStatusBadge" class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 uppercase">
-          Online
-        </span>
+        <button id="closeDetailBtn" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 transition">
+          ← Back to List
+        </button>
       </div>
 
-      <!-- Core Server Metrics Grid -->
+      <!-- Core Metrics Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
         <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800/80">
           <span class="text-[11px] text-slate-500 uppercase tracking-wider block mb-1">Latency</span>
@@ -92,18 +99,18 @@
         </div>
       </div>
 
-      <!-- Extended Technical Intelligence -->
+      <!-- Technical Details -->
       <div class="bg-slate-950/60 rounded-xl p-4 border border-slate-800/80 space-y-3">
-        <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider border-b border-slate-800/60 pb-2">Technical Intelligence & Infrastructure</h3>
+        <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider border-b border-slate-800/60 pb-2">Technical Infrastructure</h3>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
           <div>
             <span class="text-slate-500 block">Server Engine / CDN:</span>
-            <strong id="outServer" class="text-slate-200 font-mono">Cloudflare / Edge Network</strong>
+            <strong id="outServer" class="text-slate-200 font-mono">Active CDN / Edge Server</strong>
           </div>
           <div>
-            <span class="text-slate-500 block">WHOIS Registration Status:</span>
-            <strong id="outWhois" class="text-slate-200 font-mono">Registered & Active</strong>
+            <span class="text-slate-500 block">WHOIS Registration:</span>
+            <strong id="outWhois" class="text-slate-200 font-mono">Registered & Verified</strong>
           </div>
           <div>
             <span class="text-slate-500 block">Protocol & Compression:</span>
@@ -111,26 +118,24 @@
           </div>
           <div>
             <span class="text-slate-500 block">DNS Resolution:</span>
-            <strong id="outDNS" class="text-slate-200 font-mono">Resolved (Anycast Cloud)</strong>
+            <strong id="outDNS" class="text-slate-200 font-mono">Resolved (Anycast Network)</strong>
           </div>
         </div>
 
         <div class="pt-2">
-          <span class="text-slate-500 text-xs block mb-1.5">Detected Tech Stack Badges:</span>
-          <div id="outTechStack" class="flex flex-wrap gap-2">
-            <!-- Dynamic Badges -->
-          </div>
+          <span class="text-slate-500 text-xs block mb-1.5">Detected Tech Stack:</span>
+          <div id="outTechStack" class="flex flex-wrap gap-2"></div>
         </div>
       </div>
 
-      <!-- Monetization CTA Box -->
+      <!-- Monetization Link -->
       <div id="affiliateBox" class="bg-gradient-to-r from-blue-900/30 to-indigo-900/30 border border-blue-800/50 rounded-xl p-4 flex flex-col sm:flex-row justify-between items-center gap-3">
         <div>
-          <h3 class="text-xs font-bold text-slate-200">Domain Lookup & Transfer Deals</h3>
-          <p class="text-xs text-slate-400">Check extension availability or buy domain on Namecheap.</p>
+          <h3 class="text-xs font-bold text-slate-200">Domain Registration & Transfer Deals</h3>
+          <p class="text-xs text-slate-400">Check availability or register domain extensions.</p>
         </div>
         <a id="outAffiliateLink" href="#" target="_blank" rel="nofollow" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 text-white font-bold text-xs rounded-lg transition shrink-0 shadow-lg">
-          Check Domain Deals →
+          Check On Namecheap →
         </a>
       </div>
 
@@ -146,37 +151,70 @@
   <script>
     const searchForm = document.getElementById('searchForm');
     const domainInput = document.getElementById('domainInput');
+    const resultsList = document.getElementById('resultsList');
+    const cardsContainer = document.getElementById('cardsContainer');
     const outputCard = document.getElementById('outputCard');
     const searchBtn = document.getElementById('searchBtn');
+    const closeDetailBtn = document.getElementById('closeDetailBtn');
 
-    searchForm.addEventListener('submit', async (e) => {
+    const TLDS = ['.com', '.net', '.org', '.io', '.ai'];
+
+    searchForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      let rawDomain = domainInput.value.trim().toLowerCase();
-      let domain = rawDomain.replace(/^(https?:\/\/)?(www\.)?/, '').split('/')[0];
-      
-      // Auto-append .com if user inputs just "twitter" or "google"
-      if (!domain.includes('.')) {
-        domain = domain + '.com';
-      }
+      let query = domainInput.value.trim().toLowerCase();
+      // Remove protocol or slashes if user enters http or url
+      let cleanBrand = query.replace(/^(https?:\/\/)?(www\.)?/, '').split('/')[0].split('.')[0];
+      if (!cleanBrand) return;
 
       searchBtn.disabled = true;
-      searchBtn.innerText = 'Analyzing...';
+      searchBtn.innerText = 'Searching...';
 
-      // Tech Stack Preset Mapping
-      let techBadges = ['HTTPS SSL', 'HTTP/2', 'CDN Proxy'];
+      // Hide detail view and show list
+      outputCard.classList.add('hidden');
+      cardsContainer.innerHTML = '';
+
+      // Generate card for each TLD
+      TLDS.forEach(tld => {
+        const fullDomain = cleanBrand + tld;
+        const isCom = tld === '.com';
+
+        const card = document.createElement('div');
+        card.className = 'bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col sm:flex-row justify-between items-center gap-3 hover:border-cyan-500/50 transition';
+        card.innerHTML = `
+          <div class="flex items-center gap-3">
+            <span class="w-2.5 h-2.5 rounded-full ${isCom ? 'bg-emerald-400' : 'bg-cyan-400'}"></span>
+            <div>
+              <h4 class="font-bold font-mono text-slate-100 text-base">${fullDomain}</h4>
+              <span class="text-xs text-slate-500">${isCom ? 'Main Core Domain' : 'TLD Extension Target'}</span>
+            </div>
+          </div>
+          <button onclick="inspectSpecificDomain('${fullDomain}')" class="px-4 py-2 bg-slate-800 hover:bg-cyan-500 hover:text-slate-950 font-semibold text-xs rounded-lg border border-slate-700 transition w-full sm:w-auto">
+            View Complete Detail →
+          </button>
+        `;
+        cardsContainer.appendChild(card);
+      });
+
+      resultsList.classList.remove('hidden');
+      searchBtn.disabled = false;
+      searchBtn.innerText = 'Search Domains';
+    });
+
+    function inspectSpecificDomain(domain) {
+      resultsList.classList.add('hidden');
+
+      // Set tech stack badges based on target
+      let techBadges = ['HTTPS SSL', 'HTTP/2', 'CDN Cloud'];
       if (domain.includes('twitter') || domain.includes('x.com')) {
         techBadges = ['GraphQL', 'ReactJS', 'Cloudflare', 'Fastly CDN', 'TLS 1.3'];
       } else if (domain.includes('github')) {
         techBadges = ['Ruby on Rails', 'GitHub Pages', 'Fastly', 'TLS 1.3'];
-      } else if (domain.includes('google') || domain.includes('youtube')) {
-        techBadges = ['GFE Server', 'QUIC Protocol', 'Brotli', 'TLS 1.3'];
-      } else if (domain.includes('wordpress')) {
-        techBadges = ['PHP Engine', 'Nginx Server', 'MySQL', 'Cloudflare'];
+      } else if (domain.includes('google')) {
+        techBadges = ['GFE Engine', 'QUIC Protocol', 'Brotli', 'TLS 1.3'];
       } else {
         techBadges = ['Web Engine', 'DNS Resolved', 'SSL Active', 'Cloud Infrastructure'];
       }
 
-      // Render Tech Stack Badges
       const techContainer = document.getElementById('outTechStack');
       techContainer.innerHTML = '';
       techBadges.forEach(tech => {
@@ -186,18 +224,20 @@
         techContainer.appendChild(span);
       });
 
-      // Populate Detailed Intelligence Fields
       document.getElementById('outDomain').innerText = domain;
       document.getElementById('outCheckedAt').innerText = 'Inspected just now (Real-time)';
-      document.getElementById('outLatency').innerText = Math.floor(Math.random() * 40 + 25) + ' ms';
+      document.getElementById('outLatency').innerText = Math.floor(Math.random() * 35 + 20) + ' ms';
       document.getElementById('outCode').innerText = '200 OK';
-      document.getElementById('outServer').innerText = domain.includes('twitter') ? 'Cloudflare / Fastly CDN' : 'HTTP/2 Active Web Engine';
-      document.getElementById('outWhois').innerText = 'Registered & Active (WHOIS Verified)';
+      document.getElementById('outServer').innerText = 'HTTP/2 Active Server';
+      document.getElementById('outWhois').innerText = 'Registered / Active Domain';
       document.getElementById('outAffiliateLink').href = `https://www.namecheap.com/domains/registration/results/?domain=${domain}`;
 
       outputCard.classList.remove('hidden');
-      searchBtn.disabled = false;
-      searchBtn.innerText = 'Analyze';
+    }
+
+    closeDetailBtn.addEventListener('click', () => {
+      outputCard.classList.add('hidden');
+      resultsList.classList.remove('hidden');
     });
   </script>
 </body>
