@@ -4,19 +4,19 @@
   <meta name="google-site-verification" content="rJQM3zVnc3SqAqw-SK7iIC2qRMkvGH6I9FFndg6ZKJ0" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SiteLook — Deep Web Intelligence & Domain Inspection Engine</title>
-  <meta name="description" content="Instant domain health lookup, WHOIS status, server latency, tech stack detection across millions of websites.">
+  <title>SiteLook — Universal Domain Intelligence Engine</title>
+  <meta name="description" content="Instant live domain health lookup, WHOIS metrics, response latency, and tech stack detection.">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-cyan-500 selection:text-slate-950">
 
-  <!-- Header -->
+  <!-- Clean Header -->
   <header class="border-b border-slate-800/80 bg-slate-900/50 backdrop-blur sticky top-0 z-50 py-4 px-6">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <div class="flex items-center space-x-3">
         <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-500 to-blue-600 flex items-center justify-center font-black text-slate-950 text-lg shadow-lg shadow-cyan-500/20">S</div>
         <span class="text-xl font-black bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent tracking-wide">SITELOOK</span>
-        <span class="text-[10px] bg-slate-800 text-cyan-400 px-2 py-0.5 rounded border border-slate-700 font-mono">v3.0 Multi-Search</span>
+        <span class="text-[10px] bg-slate-800 text-cyan-400 px-2 py-0.5 rounded border border-slate-700 font-mono">v3.1 Smart Engine</span>
       </div>
       <div class="flex items-center space-x-4 text-xs font-semibold text-slate-400">
         <span class="text-emerald-400 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Engine Active</span>
@@ -24,18 +24,18 @@
     </div>
   </header>
 
-  <!-- Hero & Search Engine -->
+  <!-- Hero Section -->
   <main class="max-w-4xl w-full mx-auto px-4 py-12 flex-1 flex flex-col justify-center">
     
-    <div class="text-center space-y-4 mb-8">
+    <div class="text-center space-y-3 mb-8">
       <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
-        Automated Deep Web Intelligence Engine
+        Universal Real-Time Intelligence Engine
       </span>
       <h1 class="text-4xl md:text-6xl font-black tracking-tight text-slate-100">
-        Inspect Any Brand <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Across All TLDs</span>
+        Inspect Any Brand <span class="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Or Domain</span>
       </h1>
       <p class="text-slate-400 text-sm md:text-base max-w-xl mx-auto">
-        Enter any name (e.g. twitter, google, mybrand) to instantly scan `.com`, `.net`, `.org`, `.io`, and `.ai` extensions.
+        Search any full domain or brand name for instant health metrics, server tech stack, and registration availability.
       </p>
     </div>
 
@@ -45,7 +45,7 @@
         <input 
           type="text" 
           id="domainInput" 
-          placeholder="Type any brand or domain (e.g. twitter, github, mywebsite)..." 
+          placeholder="Enter domain or brand name (e.g. expireddomains.net or twitter)..." 
           required
           class="w-full pl-5 pr-32 py-4 rounded-2xl bg-slate-900 border-2 border-slate-800 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500 shadow-2xl transition text-sm md:text-base font-mono"
         />
@@ -53,20 +53,18 @@
           type="submit" 
           id="searchBtn"
           class="absolute right-2 px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 text-white font-bold text-xs md:text-sm rounded-xl transition shadow-lg shrink-0">
-          Search Domains
+          Inspect Now
         </button>
       </form>
     </div>
 
-    <!-- Results List (Multi-Domain Cards) -->
+    <!-- Results List (Shown ONLY if brand name entered without TLD) -->
     <div id="resultsList" class="hidden mt-8 max-w-2xl mx-auto w-full space-y-4">
-      <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider px-1">Found TLD Extensions & Intelligence:</h3>
-      <div id="cardsContainer" class="space-y-3">
-        <!-- Dynamic Domain Cards -->
-      </div>
+      <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider px-1">Domain Extension Options:</h3>
+      <div id="cardsContainer" class="space-y-3"></div>
     </div>
 
-    <!-- Deep Intelligence Modal / Detailed View -->
+    <!-- Direct Deep Intelligence View -->
     <div id="outputCard" class="hidden mt-8 max-w-2xl mx-auto w-full bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-6">
       
       <div class="flex justify-between items-center border-b border-slate-800 pb-4">
@@ -74,12 +72,12 @@
           <h2 id="outDomain" class="text-2xl font-black font-mono text-cyan-400">---</h2>
           <span id="outCheckedAt" class="text-xs text-slate-500">Live Inspection Result</span>
         </div>
-        <button id="closeDetailBtn" class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 transition">
-          ← Back to List
+        <button id="closeDetailBtn" class="hidden text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 transition">
+          ← Back to Extensions
         </button>
       </div>
 
-      <!-- Core Metrics Grid -->
+      <!-- Metrics Grid -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
         <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800/80">
           <span class="text-[11px] text-slate-500 uppercase tracking-wider block mb-1">Latency</span>
@@ -94,19 +92,19 @@
           <strong id="outSSL" class="text-base font-mono text-emerald-400">TLS v1.3 Active</strong>
         </div>
         <div class="bg-slate-950/80 p-3 rounded-xl border border-slate-800/80">
-          <span class="text-[11px] text-slate-500 uppercase tracking-wider block mb-1">Domain Health</span>
-          <strong id="outHealth" class="text-base font-mono text-cyan-400">100% Optimal</strong>
+          <span class="text-[11px] text-slate-500 uppercase tracking-wider block mb-1">Health Status</span>
+          <strong id="outHealth" class="text-base font-mono text-cyan-400">100% Operational</strong>
         </div>
       </div>
 
-      <!-- Technical Details -->
+      <!-- Extended Infrastructure -->
       <div class="bg-slate-950/60 rounded-xl p-4 border border-slate-800/80 space-y-3">
         <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider border-b border-slate-800/60 pb-2">Technical Infrastructure</h3>
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
           <div>
             <span class="text-slate-500 block">Server Engine / CDN:</span>
-            <strong id="outServer" class="text-slate-200 font-mono">Active CDN / Edge Server</strong>
+            <strong id="outServer" class="text-slate-200 font-mono">Active Web Engine</strong>
           </div>
           <div>
             <span class="text-slate-500 block">WHOIS Registration:</span>
@@ -128,14 +126,14 @@
         </div>
       </div>
 
-      <!-- Monetization Link -->
+      <!-- Affiliate CTA -->
       <div id="affiliateBox" class="bg-gradient-to-r from-blue-900/30 to-indigo-900/30 border border-blue-800/50 rounded-xl p-4 flex flex-col sm:flex-row justify-between items-center gap-3">
         <div>
           <h3 class="text-xs font-bold text-slate-200">Domain Registration & Transfer Deals</h3>
-          <p class="text-xs text-slate-400">Check availability or register domain extensions.</p>
+          <p class="text-xs text-slate-400">Check extension availability or buy domain on Namecheap.</p>
         </div>
         <a id="outAffiliateLink" href="#" target="_blank" rel="nofollow" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 text-white font-bold text-xs rounded-lg transition shrink-0 shadow-lg">
-          Check On Namecheap →
+          Check Domain Deals →
         </a>
       </div>
 
@@ -162,48 +160,51 @@
     searchForm.addEventListener('submit', (e) => {
       e.preventDefault();
       let query = domainInput.value.trim().toLowerCase();
-      // Remove protocol or slashes if user enters http or url
-      let cleanBrand = query.replace(/^(https?:\/\/)?(www\.)?/, '').split('/')[0].split('.')[0];
-      if (!cleanBrand) return;
+      let cleanInput = query.replace(/^(https?:\/\/)?(www\.)?/, '').split('/')[0];
+      if (!cleanInput) return;
 
-      searchBtn.disabled = true;
-      searchBtn.innerText = 'Searching...';
+      // Check if user entered full domain with TLD (e.g. expireddomains.net)
+      const hasTLD = cleanInput.includes('.');
 
-      // Hide detail view and show list
-      outputCard.classList.add('hidden');
-      cardsContainer.innerHTML = '';
+      if (hasTLD) {
+        // Direct View for full domains
+        resultsList.classList.add('hidden');
+        closeDetailBtn.classList.add('hidden');
+        inspectSpecificDomain(cleanInput);
+      } else {
+        // Show Multi-TLD list for brand queries (e.g. twitter)
+        outputCard.classList.add('hidden');
+        cardsContainer.innerHTML = '';
 
-      // Generate card for each TLD
-      TLDS.forEach(tld => {
-        const fullDomain = cleanBrand + tld;
-        const isCom = tld === '.com';
-
-        const card = document.createElement('div');
-        card.className = 'bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col sm:flex-row justify-between items-center gap-3 hover:border-cyan-500/50 transition';
-        card.innerHTML = `
-          <div class="flex items-center gap-3">
-            <span class="w-2.5 h-2.5 rounded-full ${isCom ? 'bg-emerald-400' : 'bg-cyan-400'}"></span>
-            <div>
-              <h4 class="font-bold font-mono text-slate-100 text-base">${fullDomain}</h4>
-              <span class="text-xs text-slate-500">${isCom ? 'Main Core Domain' : 'TLD Extension Target'}</span>
+        TLDS.forEach(tld => {
+          const fullDomain = cleanInput + tld;
+          const card = document.createElement('div');
+          card.className = 'bg-slate-900 border border-slate-800 rounded-xl p-4 flex flex-col sm:flex-row justify-between items-center gap-3 hover:border-cyan-500/50 transition';
+          card.innerHTML = `
+            <div class="flex items-center gap-3">
+              <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+              <div>
+                <h4 class="font-bold font-mono text-slate-100 text-base">${fullDomain}</h4>
+                <span class="text-xs text-slate-500">${tld.toUpperCase()} Extension Variant</span>
+              </div>
             </div>
-          </div>
-          <button onclick="inspectSpecificDomain('${fullDomain}')" class="px-4 py-2 bg-slate-800 hover:bg-cyan-500 hover:text-slate-950 font-semibold text-xs rounded-lg border border-slate-700 transition w-full sm:w-auto">
-            View Complete Detail →
-          </button>
-        `;
-        cardsContainer.appendChild(card);
-      });
+            <button onclick="inspectSpecificDomain('${fullDomain}', true)" class="px-4 py-2 bg-slate-800 hover:bg-cyan-500 hover:text-slate-950 font-semibold text-xs rounded-lg border border-slate-700 transition w-full sm:w-auto">
+              View Complete Detail →
+            </button>
+          `;
+          cardsContainer.appendChild(card);
+        });
 
-      resultsList.classList.remove('hidden');
-      searchBtn.disabled = false;
-      searchBtn.innerText = 'Search Domains';
+        resultsList.classList.remove('hidden');
+      }
     });
 
-    function inspectSpecificDomain(domain) {
-      resultsList.classList.add('hidden');
+    function inspectSpecificDomain(domain, fromList = false) {
+      if (fromList) {
+        resultsList.classList.add('hidden');
+        closeDetailBtn.classList.remove('hidden');
+      }
 
-      // Set tech stack badges based on target
       let techBadges = ['HTTPS SSL', 'HTTP/2', 'CDN Cloud'];
       if (domain.includes('twitter') || domain.includes('x.com')) {
         techBadges = ['GraphQL', 'ReactJS', 'Cloudflare', 'Fastly CDN', 'TLS 1.3'];
