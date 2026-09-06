@@ -501,6 +501,13 @@ DNSSEC: unsigned
       closeDetailBtn.classList.remove('hidden');
     }
 
+    // Subdomain Extraction Fix (e.g., adil-leo.github.io -> github.io)
+    let domainParts = domain.toLowerCase().split('.');
+    let queryDomain = domain;
+    if (domainParts.length > 2 && !domain.endsWith('.co.uk') && !domain.endsWith('.com.pk')) {
+      queryDomain = domainParts.slice(-2).join('.');
+    }
+
     // UI Reset / Loading State Set Karein
     document.getElementById('outDomain').innerText = domain;
     document.getElementById('tableDomain').innerText = domain;
@@ -517,7 +524,8 @@ DNSSEC: unsigned
     const startTime = performance.now();
 
     try {
-      const response = await fetch(`https://rdap.org/domain/${domain}`);
+      // Query Root Domain on RDAP API
+      const response = await fetch(`https://rdap.org/domain/${queryDomain}`);
       const endTime = performance.now();
       const ping = Math.round(endTime - startTime);
       document.getElementById('outLatency').innerText = `${ping} ms`;
@@ -542,11 +550,10 @@ DNSSEC: unsigned
         }
         document.getElementById('tableRegistrar').innerText = registrarName;
 
-        // Extract Domain Status (Fix for Table Cell & Top Card)
+        // Extract Domain Status
         let statusList = data.status ? data.status.join(', ') : 'ok / active';
         document.getElementById('outWhoisQuick').innerText = data.status && data.status[0] ? data.status[0] : 'active';
         
-        // Table Domain Status row update
         const domainStatusRow = document.getElementById('tableDomain').parentElement.parentElement.children[2].children[1];
         if (domainStatusRow) domainStatusRow.innerText = statusList;
 
@@ -568,7 +575,7 @@ DNSSEC: unsigned
 
         // Clean WHOIS Record Output
         document.getElementById('rawWhoisBox').innerText = 
-          `Domain Name: ${domain.toUpperCase()}\n` +
+          `Domain Name: ${domain.toUpperCase()} (Parent Registry: ${queryDomain.toUpperCase()})\n` +
           `Registry Handle: ${data.handle || 'N/A'}\n` +
           `Registrar: ${registrarName}\n` +
           `Created On: ${creationDate}\n` +
@@ -578,7 +585,6 @@ DNSSEC: unsigned
           `Data Source: ICANN RDAP Protocol (Live)`;
 
       } else if (response.status === 404) {
-        // Dead / Available Domain Fix
         document.getElementById('outStatusBadge').innerText = 'DEAD / AVAILABLE';
         document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30';
         document.getElementById('outCode').innerText = '404 NOT FOUND';
@@ -588,7 +594,6 @@ DNSSEC: unsigned
         document.getElementById('tableNS').innerText = 'None';
         document.getElementById('outWhoisQuick').innerText = 'Unregistered';
         
-        // Update Table Domain Status cell for Dead domains
         const domainStatusRow = document.getElementById('tableDomain').parentElement.parentElement.children[2].children[1];
         if (domainStatusRow) domainStatusRow.innerText = 'Available for purchase';
 
