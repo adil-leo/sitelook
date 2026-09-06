@@ -460,7 +460,17 @@ DNSSEC: unsigned
     if (hasTLD) {
       resultsList.classList.add('hidden');
       closeDetailBtn.classList.add('hidden');
-      inspectSpecificDomain(cleanInput);
+
+      // Subdomain & Path Fix Logic
+      let domainParts = cleanInput.split('.');
+      let targetDomain = cleanInput;
+
+      // Extract root domain if subdomain (e.g., adil-leo.github.io -> github.io)
+      if (domainParts.length > 2 && !cleanInput.endsWith('.co.uk') && !cleanInput.endsWith('.com.pk')) {
+        targetDomain = domainParts.slice(-2).join('.');
+      }
+
+      inspectSpecificDomain(targetDomain);
     } else {
       outputCard.classList.add('hidden');
       cardsContainer.innerHTML = '';
