@@ -440,105 +440,152 @@ DNSSEC: unsigned
   </footer>
 
   <script>
-    const searchForm = document.getElementById('searchForm');
-    const domainInput = document.getElementById('domainInput');
-    const resultsList = document.getElementById('resultsList');
-    const cardsContainer = document.getElementById('cardsContainer');
-    const outputCard = document.getElementById('outputCard');
-    const closeDetailBtn = document.getElementById('closeDetailBtn');
+  const searchForm = document.getElementById('searchForm');
+  const domainInput = document.getElementById('domainInput');
+  const resultsList = document.getElementById('resultsList');
+  const cardsContainer = document.getElementById('cardsContainer');
+  const outputCard = document.getElementById('outputCard');
+  const closeDetailBtn = document.getElementById('closeDetailBtn');
 
-    const TLDS = ['.com', '.net', '.org', '.io', '.ai'];
+  const TLDS = ['.com', '.net', '.org', '.io', '.ai'];
 
-    searchForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      let query = domainInput.value.trim().toLowerCase();
-      let cleanInput = query.replace(/^(https?:\/\/)?(www\.)?/, '').split('/')[0];
-      if (!cleanInput) return;
+  searchForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let query = domainInput.value.trim().toLowerCase();
+    let cleanInput = query.replace(/^(https?:\/\/)?(www\.)?/, '').split('/')[0];
+    if (!cleanInput) return;
 
-      const hasTLD = cleanInput.includes('.');
+    const hasTLD = cleanInput.includes('.');
 
-      if (hasTLD) {
-        resultsList.classList.add('hidden');
-        closeDetailBtn.classList.add('hidden');
-        inspectSpecificDomain(cleanInput);
-      } else {
-        outputCard.classList.add('hidden');
-        cardsContainer.innerHTML = '';
+    if (hasTLD) {
+      resultsList.classList.add('hidden');
+      closeDetailBtn.classList.add('hidden');
+      inspectSpecificDomain(cleanInput);
+    } else {
+      outputCard.classList.add('hidden');
+      cardsContainer.innerHTML = '';
 
-        TLDS.forEach(tld => {
-          const fullDomain = cleanInput + tld;
-          const card = document.createElement('div');
-          card.className = 'bg-cream-card border border-stone-200 rounded-xl p-4 flex justify-between items-center hover:border-blue-500 transition shadow-sm';
-          card.innerHTML = `
-            <div>
-              <h4 class="font-bold font-mono text-slate-900 text-sm md:text-base">${fullDomain}</h4>
-              <span class="text-xs text-slate-500 font-mono">${tld.toUpperCase()} Extension Record</span>
-            </div>
-            <button onclick="inspectSpecificDomain('${fullDomain}', true)" class="px-3.5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-mono font-medium text-xs md:text-sm rounded-lg transition shadow-sm">
-              Inspect →
-            </button>
-          `;
-          cardsContainer.appendChild(card);
-        });
-
-        resultsList.classList.remove('hidden');
-      }
-    });
-
-    function inspectSpecificDomain(domain, fromList = false) {
-      if (fromList) {
-        resultsList.classList.add('hidden');
-        closeDetailBtn.classList.remove('hidden');
-      }
-
-      let techBadges = ['HTTPS SSL', 'HTTP/2', 'Cloud Proxy'];
-      if (domain.includes('twitter') || domain.includes('x.com')) {
-        techBadges = ['GraphQL', 'ReactJS', 'Cloudflare', 'Fastly CDN', 'TLS 1.3'];
-      } else if (domain.includes('github')) {
-        techBadges = ['Ruby on Rails', 'GitHub Pages', 'Fastly', 'TLS 1.3'];
-      } else if (domain.includes('google')) {
-        techBadges = ['GFE Engine', 'QUIC Protocol', 'Brotli', 'TLS 1.3'];
-      } else {
-        techBadges = ['Web Engine', 'DNS Active', 'SSL Secure', 'Edge Infrastructure'];
-      }
-
-      const techContainer = document.getElementById('outTechStack');
-      techContainer.innerHTML = '';
-      techBadges.forEach(tech => {
-        const span = document.createElement('span');
-        span.className = 'px-3 py-1 text-xs md:text-sm font-mono bg-stone-100 text-slate-800 border border-stone-200 rounded-md';
-        span.innerText = tech;
-        techContainer.appendChild(span);
+      TLDS.forEach(tld => {
+        const fullDomain = cleanInput + tld;
+        const card = document.createElement('div');
+        card.className = 'bg-cream-card border border-stone-200 rounded-xl p-4 flex justify-between items-center hover:border-blue-500 transition shadow-sm';
+        card.innerHTML = `
+          <div>
+            <h4 class="font-bold font-mono text-slate-900 text-sm md:text-base">${fullDomain}</h4>
+            <span class="text-xs text-slate-500 font-mono">${tld.toUpperCase()} Extension Record</span>
+          </div>
+          <button onclick="inspectSpecificDomain('${fullDomain}', true)" class="px-3.5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-mono font-medium text-xs md:text-sm rounded-lg transition shadow-sm">
+            Inspect →
+          </button>
+        `;
+        cardsContainer.appendChild(card);
       });
 
-      document.getElementById('outDomain').innerText = domain;
-      document.getElementById('tableDomain').innerText = domain;
-      document.getElementById('outLatency').innerText = Math.floor(Math.random() * 35 + 20) + ' ms';
-      document.getElementById('outAffiliateLink').href = `https://www.namecheap.com/domains/registration/results/?domain=${domain}`;
+      resultsList.classList.remove('hidden');
+    }
+  });
 
-      document.getElementById('rawWhoisBox').innerText = 
-`Domain Name: ${domain.toUpperCase()}
-Registry Domain ID: ${Math.floor(Math.random()*9000000+1000000)}_DOMAIN-VRSN
-Registrar WHOIS Server: whois.registrar-servers.com
-Registrar URL: https://www.namecheap.com
-Updated Date: 2026-01-15T10:22:11Z
-Creation Date: 2012-08-04T14:18:00Z
-Registry Expiry Date: 2028-08-04T14:18:00Z
-Registrar: Global Domain Registrar Service LLC
-Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
-Name Server: NS1.CLOUDFLARE.COM
-Name Server: NS2.CLOUDFLARE.COM
-DNSSEC: unsigned
-Raw Query Status: 200 OK (Processed Successfully)`;
-
-      outputCard.classList.remove('hidden');
-      outputCard.scrollIntoView({ behavior: 'smooth' });
+  async function inspectSpecificDomain(domain, fromList = false) {
+    if (fromList) {
+      resultsList.classList.add('hidden');
+      closeDetailBtn.classList.remove('hidden');
     }
 
-    closeDetailBtn.addEventListener('click', () => {
-      outputCard.classList.add('hidden');
-      resultsList.classList.remove('hidden');
+    // UI Loading State Set Karein
+    document.getElementById('outDomain').innerText = domain;
+    document.getElementById('tableDomain').innerText = domain;
+    document.getElementById('outStatusBadge').innerText = 'CHECKING REAL DATA...';
+    document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-yellow-500/20 text-yellow-400 border border-yellow-500/30';
+    document.getElementById('outLatency').innerText = 'Measuring...';
+    document.getElementById('outCode').innerText = '...';
+    document.getElementById('rawWhoisBox').innerText = 'Fetching live WHOIS record from global registry...';
+    document.getElementById('outAffiliateLink').href = `https://www.namecheap.com/domains/registration/results/?domain=${domain}`;
+
+    outputCard.classList.remove('hidden');
+    outputCard.scrollIntoView({ behavior: 'smooth' });
+
+    const startTime = performance.now();
+
+    try {
+      // 1. Real RDAP WHOIS Lookup Call
+      const response = await fetch(`https://rdap.org/domain/${domain}`);
+      const endTime = performance.now();
+      const ping = Math.round(endTime - startTime);
+      document.getElementById('outLatency').innerText = `${ping} ms`;
+
+      if (response.ok) {
+        const data = await response.json();
+
+        // Active Status & Registrar
+        document.getElementById('outStatusBadge').innerText = 'REGISTERED & ACTIVE';
+        document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30';
+        document.getElementById('outCode').innerText = '200 OK';
+
+        // Registrar Extraction
+        let registrarName = 'Unknown Registrar';
+        if (data.entities) {
+          const registrarEntity = data.entities.find(e => e.roles && e.roles.includes('registrar'));
+          if (registrarEntity && registrarEntity.vcardArray) {
+            const fnArray = registrarEntity.vcardArray[1].find(item => item[0] === 'fn');
+            if (fnArray) registrarName = fnArray[3];
+          }
+        }
+        document.getElementById('tableRegistrar').innerText = registrarName;
+
+        // Domain Status / Prohibited Check
+        let statusList = data.status ? data.status.join(', ') : 'ok';
+        document.getElementById('outWhoisQuick').innerText = data.status && data.status[0] ? data.status[0] : 'active';
+
+        // Name Servers Extraction
+        let nameServers = 'N/A';
+        if (data.nameservers) {
+          nameServers = data.nameservers.map(ns => ns.ldhName).join(', ');
+        }
+        document.getElementById('tableNS').innerText = nameServers;
+
+        // Raw Response Display
+        document.getElementById('rawWhoisBox').innerText = JSON.stringify(data, null, 2);
+
+      } else if (response.status === 404) {
+        // Domain Dead / Available
+        document.getElementById('outStatusBadge').innerText = 'DEAD / AVAILABLE';
+        document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30';
+        document.getElementById('outCode').innerText = '404 NOT FOUND';
+        document.getElementById('outCode').className = 'text-red-500 font-mono text-base md:text-lg mt-0.5 block';
+        document.getElementById('tableRegistrar').innerText = 'Not Registered';
+        document.getElementById('tableNS').innerText = 'None';
+        document.getElementById('outWhoisQuick').innerText = 'Unregistered';
+        document.getElementById('rawWhoisBox').innerText = `Domain "${domain}" is NOT registered in the registry. It is available for buy.`;
+      } else {
+        throw new Error('API Error');
+      }
+
+    } catch (err) {
+      document.getElementById('outStatusBadge').innerText = 'LOOKUP FAILED';
+      document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-gray-500/20 text-gray-400 border border-gray-500/30';
+      document.getElementById('outLatency').innerText = 'N/A';
+      document.getElementById('rawWhoisBox').innerText = 'Could not fetch live WHOIS details for this TLD/domain.';
+    }
+
+    // Dynamic Tech Stack Badges
+    let techBadges = ['DNS Active', 'SSL Secure'];
+    if (domain.includes('github')) techBadges = ['Ruby on Rails', 'GitHub Pages', 'Fastly'];
+    else if (domain.includes('google')) techBadges = ['GFE Engine', 'QUIC Protocol', 'Brotli'];
+
+    const techContainer = document.getElementById('outTechStack');
+    techContainer.innerHTML = '';
+    techBadges.forEach(tech => {
+      const span = document.createElement('span');
+      span.className = 'px-3 py-1 text-xs md:text-sm font-mono bg-stone-100 text-slate-800 border border-stone-200 rounded-md';
+      span.innerText = tech;
+      techContainer.appendChild(span);
     });
-  </script>
+  }
+
+  closeDetailBtn.addEventListener('click', () => {
+    outputCard.classList.add('hidden');
+    resultsList.classList.remove('hidden');
+  });
+</script>
 </body>
 </html>
