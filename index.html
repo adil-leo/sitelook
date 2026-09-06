@@ -507,7 +507,6 @@ DNSSEC: unsigned
     const startTime = performance.now();
 
     try {
-      // 1. Real RDAP WHOIS Lookup Call
       const response = await fetch(`https://rdap.org/domain/${domain}`);
       const endTime = performance.now();
       const ping = Math.round(endTime - startTime);
@@ -516,10 +515,11 @@ DNSSEC: unsigned
       if (response.ok) {
         const data = await response.json();
 
-        // Active Status & Registrar
+        // Active Status
         document.getElementById('outStatusBadge').innerText = 'REGISTERED & ACTIVE';
         document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30';
         document.getElementById('outCode').innerText = '200 OK';
+        document.getElementById('outCode').className = 'text-emerald-600 font-mono text-base md:text-lg mt-0.5 block';
 
         // Registrar Extraction
         let registrarName = 'Unknown Registrar';
@@ -532,8 +532,9 @@ DNSSEC: unsigned
         }
         document.getElementById('tableRegistrar').innerText = registrarName;
 
-        // Domain Status / Prohibited Check
+        // Domain Status / EPP Statuses
         let statusList = data.status ? data.status.join(', ') : 'ok';
+        document.querySelector('#tableDomain').parentElement.parentElement.children[2].children[1].innerText = statusList;
         document.getElementById('outWhoisQuick').innerText = data.status && data.status[0] ? data.status[0] : 'active';
 
         // Name Servers Extraction
@@ -543,16 +544,34 @@ DNSSEC: unsigned
         }
         document.getElementById('tableNS').innerText = nameServers;
 
-        // Raw Response Display
-        document.getElementById('rawWhoisBox').innerText = JSON.stringify(data, null, 2);
+        // Dates Extraction
+        let creationDate = 'N/A', expiryDate = 'N/A';
+        if (data.events) {
+          const regEvent = data.events.find(e => e.eventAction === 'registration');
+          const expEvent = data.events.find(e => e.eventAction === 'expiration');
+          if (regEvent) creationDate = regEvent.eventDate;
+          if (expEvent) expiryDate = expEvent.eventDate;
+        }
+
+        // Clean Raw Record Display
+        document.getElementById('rawWhoisBox').innerText = 
+`Domain Name: ${domain.toUpperCase()}
+Registry Handle: ${data.handle || 'N/A'}
+Registrar: ${registrarName}
+Created Date: ${creationDate}
+Expiry Date: ${expiryDate}
+Domain Status: ${statusList}
+Name Servers: ${nameServers}
+Data Source: ICANN RDAP Protocol (Live)`;
 
       } else if (response.status === 404) {
-        // Domain Dead / Available
+        // Dead / Available Domain Fix
         document.getElementById('outStatusBadge').innerText = 'DEAD / AVAILABLE';
         document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30';
         document.getElementById('outCode').innerText = '404 NOT FOUND';
         document.getElementById('outCode').className = 'text-red-500 font-mono text-base md:text-lg mt-0.5 block';
         document.getElementById('tableRegistrar').innerText = 'Not Registered';
+        document.querySelector('#tableDomain').parentElement.parentElement.children[2].children[1].innerText = 'Available for purchase';
         document.getElementById('tableNS').innerText = 'None';
         document.getElementById('outWhoisQuick').innerText = 'Unregistered';
         document.getElementById('rawWhoisBox').innerText = `Domain "${domain}" is NOT registered in the registry. It is available for buy.`;
