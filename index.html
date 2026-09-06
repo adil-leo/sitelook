@@ -491,7 +491,7 @@ DNSSEC: unsigned
       closeDetailBtn.classList.remove('hidden');
     }
 
-    // UI Loading State Set Karein
+    // UI Reset / Loading State
     document.getElementById('outDomain').innerText = domain;
     document.getElementById('tableDomain').innerText = domain;
     document.getElementById('outStatusBadge').innerText = 'CHECKING REAL DATA...';
@@ -521,7 +521,7 @@ DNSSEC: unsigned
         document.getElementById('outCode').innerText = '200 OK';
         document.getElementById('outCode').className = 'text-emerald-600 font-mono text-base md:text-lg mt-0.5 block';
 
-        // Registrar Extraction
+        // Extract Registrar
         let registrarName = 'Unknown Registrar';
         if (data.entities) {
           const registrarEntity = data.entities.find(e => e.roles && e.roles.includes('registrar'));
@@ -532,37 +532,36 @@ DNSSEC: unsigned
         }
         document.getElementById('tableRegistrar').innerText = registrarName;
 
-        // Domain Status / EPP Statuses
-        let statusList = data.status ? data.status.join(', ') : 'ok';
-        document.querySelector('#tableDomain').parentElement.parentElement.children[2].children[1].innerText = statusList;
+        // Extract Domain Status
+        let statusList = data.status ? data.status.join(', ') : 'active';
         document.getElementById('outWhoisQuick').innerText = data.status && data.status[0] ? data.status[0] : 'active';
 
-        // Name Servers Extraction
+        // Extract Name Servers
         let nameServers = 'N/A';
         if (data.nameservers) {
           nameServers = data.nameservers.map(ns => ns.ldhName).join(', ');
         }
         document.getElementById('tableNS').innerText = nameServers;
 
-        // Dates Extraction
+        // Extract Dates
         let creationDate = 'N/A', expiryDate = 'N/A';
         if (data.events) {
           const regEvent = data.events.find(e => e.eventAction === 'registration');
           const expEvent = data.events.find(e => e.eventAction === 'expiration');
-          if (regEvent) creationDate = regEvent.eventDate;
-          if (expEvent) expiryDate = expEvent.eventDate;
+          if (regEvent) creationDate = new Date(regEvent.eventDate).toLocaleDateString();
+          if (expEvent) expiryDate = new Date(expEvent.eventDate).toLocaleDateString();
         }
 
-        // Clean Raw Record Display
+        // Clean WHOIS Record Output
         document.getElementById('rawWhoisBox').innerText = 
-`Domain Name: ${domain.toUpperCase()}
-Registry Handle: ${data.handle || 'N/A'}
-Registrar: ${registrarName}
-Created Date: ${creationDate}
-Expiry Date: ${expiryDate}
-Domain Status: ${statusList}
-Name Servers: ${nameServers}
-Data Source: ICANN RDAP Protocol (Live)`;
+          `Domain Name: ${domain.toUpperCase()}\n` +
+          `Registry Handle: ${data.handle || 'N/A'}\n` +
+          `Registrar: ${registrarName}\n` +
+          `Created On: ${creationDate}\n` +
+          `Expires On: ${expiryDate}\n` +
+          `Domain Status: ${statusList}\n` +
+          `Name Servers: ${nameServers}\n` +
+          `Data Source: ICANN RDAP Protocol (Live)`;
 
       } else if (response.status === 404) {
         // Dead / Available Domain Fix
@@ -571,7 +570,6 @@ Data Source: ICANN RDAP Protocol (Live)`;
         document.getElementById('outCode').innerText = '404 NOT FOUND';
         document.getElementById('outCode').className = 'text-red-500 font-mono text-base md:text-lg mt-0.5 block';
         document.getElementById('tableRegistrar').innerText = 'Not Registered';
-        document.querySelector('#tableDomain').parentElement.parentElement.children[2].children[1].innerText = 'Available for purchase';
         document.getElementById('tableNS').innerText = 'None';
         document.getElementById('outWhoisQuick').innerText = 'Unregistered';
         document.getElementById('rawWhoisBox').innerText = `Domain "${domain}" is NOT registered in the registry. It is available for buy.`;
