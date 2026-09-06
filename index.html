@@ -485,13 +485,13 @@ DNSSEC: unsigned
     }
   });
 
-  async function inspectSpecificDomain(domain, fromList = false) {
+ async function inspectSpecificDomain(domain, fromList = false) {
     if (fromList) {
       resultsList.classList.add('hidden');
       closeDetailBtn.classList.remove('hidden');
     }
 
-    // UI Reset / Loading State
+    // UI Reset / Loading State Set Karein
     document.getElementById('outDomain').innerText = domain;
     document.getElementById('tableDomain').innerText = domain;
     document.getElementById('outStatusBadge').innerText = 'CHECKING REAL DATA...';
@@ -532,9 +532,13 @@ DNSSEC: unsigned
         }
         document.getElementById('tableRegistrar').innerText = registrarName;
 
-        // Extract Domain Status
-        let statusList = data.status ? data.status.join(', ') : 'active';
+        // Extract Domain Status (Fix for Table Cell & Top Card)
+        let statusList = data.status ? data.status.join(', ') : 'ok / active';
         document.getElementById('outWhoisQuick').innerText = data.status && data.status[0] ? data.status[0] : 'active';
+        
+        // Table Domain Status row update
+        const domainStatusRow = document.getElementById('tableDomain').parentElement.parentElement.children[2].children[1];
+        if (domainStatusRow) domainStatusRow.innerText = statusList;
 
         // Extract Name Servers
         let nameServers = 'N/A';
@@ -569,9 +573,15 @@ DNSSEC: unsigned
         document.getElementById('outStatusBadge').className = 'px-3 py-1.5 rounded text-xs md:text-sm font-mono font-bold bg-red-500/20 text-red-400 border border-red-500/30';
         document.getElementById('outCode').innerText = '404 NOT FOUND';
         document.getElementById('outCode').className = 'text-red-500 font-mono text-base md:text-lg mt-0.5 block';
+        
         document.getElementById('tableRegistrar').innerText = 'Not Registered';
         document.getElementById('tableNS').innerText = 'None';
         document.getElementById('outWhoisQuick').innerText = 'Unregistered';
+        
+        // Update Table Domain Status cell for Dead domains
+        const domainStatusRow = document.getElementById('tableDomain').parentElement.parentElement.children[2].children[1];
+        if (domainStatusRow) domainStatusRow.innerText = 'Available for purchase';
+
         document.getElementById('rawWhoisBox').innerText = `Domain "${domain}" is NOT registered in the registry. It is available for buy.`;
       } else {
         throw new Error('API Error');
