@@ -3,4232 +3,4220 @@
     "domain": "google.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 253.33,
+    "response_time_ms": 401.26,
     "server": "gws",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "google.net",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 259.28,
+    "response_time_ms": 402.7,
     "server": "gws",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "google.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 286.59,
+    "response_time_ms": 537.95,
     "server": "sffe",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "google.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 421.56,
+    "response_time_ms": 668.06,
     "server": "Google Frontend",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "google.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 257.68,
+    "response_time_ms": 447.08,
     "server": "gws",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "google.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 324.63,
+    "response_time_ms": 612.49,
     "server": "gws",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "youtube.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 353.05,
+    "response_time_ms": 637.37,
     "server": "ESF",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "youtube.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 141.68,
+    "response_time_ms": 239.57,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host youtube.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "youtube.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 248.43,
+    "response_time_ms": 243.93,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host youtube.org:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "youtube.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 79.94,
+    "response_time_ms": 333.66,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host youtube.io:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "youtube.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 359.43,
+    "response_time_ms": 629.88,
     "server": "ESF",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "youtube.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 81.35,
+    "response_time_ms": 115.54,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host youtube.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "facebook.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 421.09,
+    "response_time_ms": 549.27,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "facebook.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 109.12,
+    "response_time_ms": 147.21,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host facebook.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "facebook.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 357.03,
+    "response_time_ms": 233.26,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host facebook.org:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'facebook.org'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "facebook.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8586.92,
+    "response_time_ms": 8578.98,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "facebook.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 453.8,
+    "response_time_ms": 558.06,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "facebook.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 153.21,
+    "response_time_ms": 241.65,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host facebook.ai:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'facebook.ai'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "amazon.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 534.33,
+    "response_time_ms": 589.85,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "amazon.net",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 366.8,
+    "response_time_ms": 414.67,
     "server": "Microsoft-IIS/8.5",
     "tech_stack": [
       "ASP.NET"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "amazon.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 427.0,
+    "response_time_ms": 719.26,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "amazon.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1592.27,
+    "response_time_ms": 2092.44,
     "server": "istio-envoy",
     "tech_stack": [
       "Brightspot"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "amazon.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8587.33,
+    "response_time_ms": 8579.1,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "amazon.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 517.12,
+    "response_time_ms": 677.62,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wikipedia.com",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 311.69,
+    "response_time_ms": 563.11,
     "server": "HAProxy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wikipedia.net",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 312.59,
+    "response_time_ms": 563.77,
     "server": "HAProxy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wikipedia.org",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 168.94,
+    "response_time_ms": 506.31,
     "server": "HAProxy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wikipedia.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 855.69,
+    "response_time_ms": 957.12,
     "server": "AmazonS3",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wikipedia.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 211.21,
+    "response_time_ms": 514.16,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host wikipedia.co:443 ssl:default [None]"
   },
   {
     "domain": "wikipedia.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 470.99,
+    "response_time_ms": 509.75,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host wikipedia.ai:443 ssl:default [Connect call failed ('119.9.25.218', 443)]"
   },
   {
     "domain": "instagram.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 4114.03,
+    "response_time_ms": 3944.37,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "instagram.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 3178.52,
+    "response_time_ms": 3477.25,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host instagram.net:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'instagram.net'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "instagram.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8584.0,
+    "response_time_ms": 8576.68,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "instagram.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8580.4,
+    "response_time_ms": 8574.03,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "instagram.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8582.48,
+    "response_time_ms": 8576.51,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "instagram.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8583.68,
+    "response_time_ms": 8575.57,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "reddit.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8580.18,
+    "response_time_ms": 8572.33,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "reddit.net",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 2029.45,
+    "response_time_ms": 3513.41,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "reddit.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8581.09,
+    "response_time_ms": 8573.72,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "reddit.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8582.06,
+    "response_time_ms": 1822.53,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host reddit.io:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')]"
   },
   {
     "domain": "reddit.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8585.62,
+    "response_time_ms": 8576.25,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "reddit.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.98,
+    "response_time_ms": 8573.12,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "twitter.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8579.46,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 6911.56,
+    "server": "cloudflare envoy",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "twitter.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8578.86,
+    "response_time_ms": 8577.25,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "twitter.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8581.72,
+    "response_time_ms": 8577.0,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "twitter.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8583.9,
+    "response_time_ms": 6387.36,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host twitter.io:443 ssl:default [None]"
   },
   {
     "domain": "twitter.co",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 2276.77,
+    "response_time_ms": 1833.11,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "twitter.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 5104.46,
+    "response_time_ms": 793.83,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host twitter.ai:443 ssl:default [[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1017)]"
   },
   {
     "domain": "x.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8580.91,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 4141.04,
+    "server": "cloudflare envoy",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "x.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2526.49,
+    "response_time_ms": 8572.56,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host x.net:443 ssl:default [Name or service not known]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "x.org",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 5096.38,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8572.0,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "x.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8583.04,
+    "response_time_ms": 8570.87,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "x.co",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 2050.05,
-    "server": "AkamaiGHost",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8573.06,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "x.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8580.12,
+    "response_time_ms": 8571.93,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "yahoo.com",
     "status": "Issues Detected",
-    "status_code": 429,
-    "response_time_ms": 797.19,
+    "status_code": 404,
+    "response_time_ms": 6209.36,
     "server": "ATS",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "yahoo.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8582.77,
+    "response_time_ms": 8575.76,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "yahoo.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8582.82,
+    "response_time_ms": 5968.58,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host yahoo.org:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'yahoo.org'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "yahoo.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.69,
+    "response_time_ms": 8572.42,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "yahoo.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8583.28,
+    "response_time_ms": 8572.15,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "yahoo.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8578.7,
+    "response_time_ms": 8574.8,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "whatsapp.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 4325.86,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8571.37,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "whatsapp.net",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1798.99,
+    "response_time_ms": 1119.95,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "whatsapp.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.43,
+    "response_time_ms": 8574.35,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "whatsapp.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1969.53,
+    "response_time_ms": 8572.28,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host whatsapp.io:443 ssl:default [Name or service not known]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "whatsapp.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8578.94,
+    "response_time_ms": 8574.72,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "whatsapp.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8581.63,
+    "response_time_ms": 8571.9,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "netflix.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8581.59,
+    "response_time_ms": 8571.48,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "netflix.net",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8581.36,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 2345.19,
+    "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "netflix.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8581.47,
+    "response_time_ms": 8574.05,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "netflix.io",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8577.96,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 4296.54,
+    "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "netflix.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8582.38,
+    "response_time_ms": 8569.61,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "netflix.ai",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8579.95,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 5419.24,
+    "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "linkedin.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8580.01,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 646.1,
+    "server": "ESF",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "linkedin.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8580.6,
+    "response_time_ms": 662.43,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host linkedin.net:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'linkedin.net'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "linkedin.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.8,
+    "response_time_ms": 8572.54,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "linkedin.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8576.2,
+    "response_time_ms": 8572.76,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "linkedin.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1636.02,
+    "response_time_ms": 6425.46,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "linkedin.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1750.65,
+    "response_time_ms": 8572.23,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host linkedin.ai:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'linkedin.ai'. (_ssl.c:1017)\")]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "openai.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 1634.43,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8573.3,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "openai.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8577.77,
+    "response_time_ms": 4359.05,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host openai.net:443 ssl:default [Temporary failure in name resolution]"
   },
   {
     "domain": "openai.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8577.57,
+    "response_time_ms": 2807.54,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host openai.org:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "openai.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8577.23,
+    "response_time_ms": 8573.01,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "openai.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8577.03,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 7783.77,
+    "server": "Hidden/CDN",
+    "tech_stack": [
+      "Express"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "openai.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8576.6,
+    "response_time_ms": 8571.33,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "bing.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 572.73,
+    "response_time_ms": 1598.62,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "bing.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8576.27,
+    "response_time_ms": 8571.1,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "bing.org",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8575.86,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 4377.56,
+    "server": "Netlify",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "bing.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 643.22,
+    "response_time_ms": 8569.66,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host bing.io:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "bing.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.27,
+    "response_time_ms": 8569.42,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "bing.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8578.75,
+    "response_time_ms": 681.05,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host bing.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "microsoft.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.01,
+    "response_time_ms": 8568.59,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "microsoft.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 3314.08,
+    "response_time_ms": 7381.74,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host microsoft.net:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'microsoft.net'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "microsoft.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8578.32,
+    "response_time_ms": 8567.94,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "microsoft.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8578.17,
+    "response_time_ms": 5782.15,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host microsoft.io:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'microsoft.io'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "microsoft.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.95,
+    "response_time_ms": 8571.54,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "microsoft.ai",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2503.06,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare",
-      "WP Engine"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8567.57,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "twitch.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1023.52,
+    "response_time_ms": 6911.53,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "twitch.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8580.75,
+    "response_time_ms": 8570.42,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "twitch.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8577.6,
+    "response_time_ms": 8570.7,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "twitch.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.86,
+    "response_time_ms": 8570.78,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "twitch.co",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 3820.36,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8571.47,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "twitch.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8580.35,
+    "response_time_ms": 8569.83,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "github.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8576.89,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 719.99,
+    "server": "github.com",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "github.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1605.93,
+    "response_time_ms": 1202.44,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host github.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "github.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.42,
+    "response_time_ms": 8572.15,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "github.io",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 4925.43,
-    "server": "GitHub.com",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8572.42,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "github.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2440.29,
+    "response_time_ms": 4000.19,
     "server": "github.com",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "github.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1950.19,
+    "response_time_ms": 8569.4,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host github.ai:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'github.ai'. (_ssl.c:1017)\")]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "pinterest.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 440.96,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8572.25,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "pinterest.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2777.75,
+    "response_time_ms": 8571.81,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host pinterest.net:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "pinterest.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.16,
+    "response_time_ms": 1792.94,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host pinterest.org:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "pinterest.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2271.74,
+    "response_time_ms": 3204.73,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "pinterest.co",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1303.04,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8569.41,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "pinterest.ai",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8575.56,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 4771.28,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "ebay.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.24,
+    "response_time_ms": 8570.43,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "ebay.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 508.17,
+    "response_time_ms": 8571.38,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host ebay.net:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "ebay.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.07,
+    "response_time_ms": 8568.36,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "ebay.io",
-    "status": "Issues Detected",
-    "status_code": 400,
-    "response_time_ms": 2193.79,
-    "server": "ebay-proxy-server",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8571.21,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "ebay.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.43,
+    "response_time_ms": 8566.37,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "ebay.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2051.6,
+    "response_time_ms": 7931.92,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "aliexpress.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2350.2,
+    "response_time_ms": 2580.71,
     "server": "Tengine/AServer-Ingress",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "aliexpress.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 3660.56,
+    "response_time_ms": 8569.19,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host aliexpress.net:443 ssl:default [Temporary failure in name resolution]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "aliexpress.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8579.81,
+    "response_time_ms": 8569.59,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "aliexpress.io",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 3679.45,
-    "server": "Vercel",
-    "tech_stack": [
-      "Next.js"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8570.3,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "aliexpress.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8574.25,
+    "response_time_ms": 8571.84,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "aliexpress.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8574.17,
+    "response_time_ms": 8570.9,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "canva.com",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 1918.95,
+    "response_time_ms": 5595.41,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "canva.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8577.38,
+    "response_time_ms": 3629.78,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host canva.net:443 ssl:default [Connect call failed ('217.70.184.38', 443)]"
   },
   {
     "domain": "canva.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8577.61,
+    "response_time_ms": 4904.54,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host canva.org:443 ssl:default [Connect call failed ('217.70.184.38', 443)]"
   },
   {
     "domain": "canva.io",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8578.32,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Issues Detected",
+    "status_code": 521,
+    "response_time_ms": 6442.68,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "canva.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 4997.76,
+    "response_time_ms": 8567.15,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host canva.co:443 ssl:default [Connect call failed ('217.70.184.38', 443)]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "canva.ai",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8574.71,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 986.36,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "tiktok.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8576.8,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 2882.27,
+    "server": "nginx",
+    "tech_stack": [
+      "Goofy Node"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "tiktok.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.98,
+    "response_time_ms": 8569.99,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "tiktok.org",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8576.83,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 2844.21,
+    "server": "Apache/2.4.58 (Ubuntu) OpenSSL/3.0.13 mod_wsgi/5.0.0 Python/3.12",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "tiktok.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1861.18,
+    "response_time_ms": 3358.22,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host tiktok.io:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')]"
   },
   {
     "domain": "tiktok.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8578.82,
+    "response_time_ms": 8571.02,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "tiktok.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8573.29,
+    "response_time_ms": 3588.44,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host tiktok.ai:443 ssl:default [Connect call failed ('52.60.87.163', 443)]"
   },
   {
     "domain": "fandom.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8573.24,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 7323.83,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "fandom.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.91,
+    "response_time_ms": 8569.04,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "fandom.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8576.35,
+    "response_time_ms": 8569.72,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "fandom.io",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 5888.7,
+    "response_time_ms": 4562.97,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "fandom.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.81,
+    "response_time_ms": 8568.49,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "fandom.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 446.87,
+    "response_time_ms": 8211.94,
     "server": "Vercel",
     "tech_stack": [
       "Next.js"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "imdb.com",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 1750.98,
+    "response_time_ms": 5476.09,
     "server": "Server",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "imdb.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8573.96,
+    "response_time_ms": 8566.12,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "imdb.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.48,
+    "response_time_ms": 8565.53,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "imdb.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8571.56,
+    "response_time_ms": 8568.81,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "imdb.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.73,
+    "response_time_ms": 8564.19,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "imdb.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8576.0,
+    "response_time_ms": 8567.32,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "cloudflare.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.61,
+    "response_time_ms": 8564.93,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "cloudflare.net",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 3290.22,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8565.57,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "cloudflare.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1757.29,
+    "response_time_ms": 8567.84,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host cloudflare.org:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "cloudflare.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8574.19,
+    "response_time_ms": 8568.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "cloudflare.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8574.3,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
-  },
-  {
-    "domain": "cloudflare.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 3284.14,
+    "response_time_ms": 689.69,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
+  },
+  {
+    "domain": "cloudflare.ai",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8563.42,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "spotify.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 3777.34,
+    "response_time_ms": 1507.43,
     "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "spotify.net",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8574.03,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 1254.38,
+    "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "spotify.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.03,
+    "response_time_ms": 8568.62,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "spotify.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8572.38,
+    "response_time_ms": 8563.02,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "spotify.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8572.11,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 1630.46,
+    "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "spotify.ai",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8571.97,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 2723.88,
+    "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "duckduckgo.com",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 1675.15,
+    "response_time_ms": 3465.52,
     "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "duckduckgo.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 4598.62,
+    "response_time_ms": 8565.31,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host duckduckgo.net:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "duckduckgo.org",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 1280.21,
+    "response_time_ms": 5709.28,
     "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "duckduckgo.io",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8570.84,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 4690.44,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "duckduckgo.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8572.9,
-    "server": "Unknown",
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 3468.55,
+    "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "duckduckgo.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8570.56,
+    "response_time_ms": 8564.87,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "quora.com",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 2535.07,
+    "response_time_ms": 2831.16,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "quora.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8570.28,
+    "response_time_ms": 8563.84,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "quora.org",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8569.98,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 2023.22,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "quora.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.89,
+    "response_time_ms": 8563.42,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "quora.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.64,
+    "response_time_ms": 8563.3,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "quora.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.54,
+    "response_time_ms": 8563.15,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "wordpress.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.11,
+    "response_time_ms": 8562.94,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "wordpress.net",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1019.24,
-    "server": "nginx",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8562.47,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "wordpress.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 488.53,
+    "response_time_ms": 2693.59,
     "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wordpress.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2218.47,
+    "response_time_ms": 3274.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host groundwork.cc:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'groundwork.cc'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "wordpress.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1708.82,
+    "response_time_ms": 2004.81,
     "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wordpress.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1113.17,
+    "response_time_ms": 8561.9,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host wordpress.ai:443 ssl:default [Temporary failure in name resolution]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "medium.com",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 572.09,
+    "response_time_ms": 4625.74,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "medium.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.6,
+    "response_time_ms": 8561.42,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "medium.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8575.16,
+    "response_time_ms": 8561.24,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "medium.io",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 4588.3,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8561.13,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "medium.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8571.68,
+    "response_time_ms": 8561.03,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "medium.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2363.49,
+    "response_time_ms": 8560.91,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host medium.ai:443 ssl:default [Connect call failed ('52.60.87.163', 443)]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "adobe.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8571.83,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 588.26,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "adobe.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8572.05,
+    "response_time_ms": 8560.75,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "adobe.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8573.28,
+    "response_time_ms": 8561.92,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "adobe.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 7953.49,
+    "response_time_ms": 1586.07,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "adobe.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8572.26,
+    "response_time_ms": 7169.84,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host adobe.co:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "adobe.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8570.9,
+    "response_time_ms": 1921.21,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host adobe.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "apple.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1852.16,
+    "response_time_ms": 1237.55,
     "server": "Apple",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "apple.net",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1909.81,
-    "server": "Apple",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8560.16,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "apple.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8572.94,
+    "response_time_ms": 8560.02,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "apple.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8570.56,
+    "response_time_ms": 8559.9,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "apple.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8573.37,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 1957.05,
+    "server": "Apple",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "apple.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 5457.77,
+    "response_time_ms": 1948.96,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host apple.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "roblox.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1553.6,
-    "server": "public-gateway",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8559.62,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "roblox.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 5014.94,
+    "response_time_ms": 5538.83,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host roblox.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "roblox.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8570.0,
+    "response_time_ms": 8561.55,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "roblox.io",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8572.91,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 1432.34,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "roblox.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.84,
+    "response_time_ms": 8562.85,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "roblox.ai",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8572.14,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 6783.72,
+    "server": "CloudFront",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "paypal.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.5,
+    "response_time_ms": 8562.95,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "paypal.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8572.6,
+    "response_time_ms": 8563.23,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "paypal.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.31,
+    "response_time_ms": 8563.62,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "paypal.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 4504.71,
+    "response_time_ms": 2548.22,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host paypal.io:443 ssl:default [Name or service not known]"
   },
   {
     "domain": "paypal.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.03,
+    "response_time_ms": 8561.89,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "paypal.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 722.17,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "response_time_ms": 5184.47,
+    "server": "Hidden/CDN",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "vimeo.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 3062.23,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare",
-      "Next.js"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8561.68,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "vimeo.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2358.1,
+    "response_time_ms": 2492.41,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host vimeo.net:443 ssl:default [Temporary failure in name resolution]"
   },
   {
     "domain": "vimeo.org",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 3249.82,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8562.9,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "vimeo.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.02,
+    "response_time_ms": 8562.81,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "vimeo.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8571.36,
+    "response_time_ms": 3005.24,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host vimeo.co:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "vimeo.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1653.53,
+    "response_time_ms": 3872.52,
     "server": "openresty",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "dropbox.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2285.2,
+    "response_time_ms": 3534.67,
     "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "dropbox.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.59,
+    "response_time_ms": 8561.26,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "dropbox.org",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8568.01,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 4020.79,
+    "server": "envoy",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "dropbox.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2275.67,
+    "response_time_ms": 4001.37,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host dropbox.io:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "dropbox.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8571.55,
+    "response_time_ms": 8563.55,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "dropbox.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1757.97,
+    "response_time_ms": 8560.85,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host dropbox.ai:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "salesforce.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2648.0,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8558.07,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "salesforce.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.03,
+    "response_time_ms": 8560.78,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "salesforce.org",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8570.61,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 4472.08,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "salesforce.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8567.83,
+    "response_time_ms": 6607.35,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host salesforce.io:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')]"
   },
   {
     "domain": "salesforce.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8567.21,
+    "response_time_ms": 8563.24,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "salesforce.ai",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8567.42,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 2192.4,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "walmart.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 571.61,
+    "response_time_ms": 5011.2,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "walmart.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8570.92,
+    "response_time_ms": 8562.66,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "walmart.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.81,
+    "response_time_ms": 8561.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "walmart.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1412.74,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "response_time_ms": 867.63,
+    "server": "Hidden/CDN",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "walmart.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 3988.01,
+    "response_time_ms": 8562.54,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host walmart.co:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "walmart.ai",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1592.6,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8560.06,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "zoom.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1402.62,
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8560.03,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
+  },
+  {
+    "domain": "zoom.net",
+    "status": "Issues Detected",
+    "status_code": 521,
+    "response_time_ms": 5327.19,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
-  },
-  {
-    "domain": "zoom.net",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8569.81,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "zoom.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.69,
+    "response_time_ms": 730.78,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host zoom.org:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "zoom.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8566.94,
+    "response_time_ms": 8562.25,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "zoom.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.05,
+    "response_time_ms": 3694.13,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host zoom.co:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'zoom.co'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "zoom.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.5,
+    "response_time_ms": 8559.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "archive.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8568.53,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 700.47,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "archive.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.08,
+    "response_time_ms": 8562.2,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "archive.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8563.93,
+    "response_time_ms": 8562.32,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "archive.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1669.06,
+    "response_time_ms": 7143.01,
     "server": "Apache/2.4.56 (Amazon Linux)",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "archive.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8567.8,
+    "response_time_ms": 8561.73,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "archive.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8565.66,
+    "response_time_ms": 8561.12,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "tumblr.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 884.77,
+    "response_time_ms": 2782.78,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Server disconnected"
   },
   {
     "domain": "tumblr.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 3862.4,
+    "response_time_ms": 2535.07,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host tumblr.net:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tumblr.net'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "tumblr.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.33,
+    "response_time_ms": 2639.03,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host tumblr.org:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "tumblr.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1776.6,
+    "response_time_ms": 1969.08,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host tumblr.io:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tumblr.io'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "tumblr.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.55,
+    "response_time_ms": 8558.03,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "tumblr.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 5909.8,
+    "response_time_ms": 8558.11,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host tumblr.ai:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "booking.com",
-    "status": "Online",
-    "status_code": 202,
-    "response_time_ms": 3321.42,
-    "server": "istio-envoy",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8559.75,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "booking.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.45,
+    "response_time_ms": 8559.8,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "booking.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 602.48,
+    "response_time_ms": 8556.03,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host booking.org:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'booking.org'. (_ssl.c:1017)\")]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "booking.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1969.15,
+    "response_time_ms": 1489.56,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host booking.io:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'booking.io'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "booking.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8568.77,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Issues Detected",
+    "status_code": 401,
+    "response_time_ms": 1506.3,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare",
+      "Express"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "booking.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8567.76,
+    "response_time_ms": 8560.35,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "cnn.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2699.88,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8561.16,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "cnn.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8568.68,
+    "response_time_ms": 8557.94,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "cnn.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8569.87,
+    "response_time_ms": 8561.92,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "cnn.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2490.44,
+    "response_time_ms": 845.91,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host cnn.io:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "cnn.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8567.72,
+    "response_time_ms": 8560.86,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "cnn.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 685.04,
+    "response_time_ms": 6695.54,
     "server": "openresty",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "bbc.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1950.03,
+    "response_time_ms": 4544.25,
     "server": "BBC-GTM",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "bbc.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8567.6,
+    "response_time_ms": 8560.57,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "bbc.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1134.2,
+    "response_time_ms": 1305.54,
     "server": "Apache",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "bbc.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2107.01,
+    "response_time_ms": 3993.47,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host bbc.io:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "bbc.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8566.75,
+    "response_time_ms": 8561.21,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "bbc.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8564.64,
+    "response_time_ms": 8559.7,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "nytimes.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 2595.65,
-    "server": "DataDome",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8556.9,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "nytimes.net",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 3000.33,
-    "server": "DPS/2.0.0+sha-8c289e6",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8557.07,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "nytimes.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1420.16,
+    "response_time_ms": 8560.11,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host nytimes.org:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nytimes.org'. (_ssl.c:1017)\")]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "nytimes.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1615.77,
+    "response_time_ms": 8559.67,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host nytimes.io:443 ssl:default [None]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "nytimes.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8567.11,
+    "response_time_ms": 8559.86,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "nytimes.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8564.18,
+    "response_time_ms": 1868.77,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host nytimes.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "gitlab.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8566.56,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 1932.03,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "gitlab.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8566.25,
+    "response_time_ms": 899.26,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host gitlab.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "gitlab.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 911.78,
+    "response_time_ms": 2587.42,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "gitlab.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 843.83,
+    "response_time_ms": 3707.96,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "gitlab.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 970.06,
+    "response_time_ms": 4816.58,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host gitlab.co:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'gitlab.co'. (_ssl.c:1017)\")]"
   },
   {
     "domain": "gitlab.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8566.6,
+    "response_time_ms": 8559.04,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "namecheap.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 2649.14,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8556.07,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "namecheap.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1123.34,
+    "response_time_ms": 8557.29,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host namecheap.net:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "namecheap.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8562.53,
+    "response_time_ms": 8555.55,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "namecheap.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8565.11,
+    "response_time_ms": 8555.62,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "namecheap.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8565.64,
+    "response_time_ms": 8557.32,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "namecheap.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8565.92,
+    "response_time_ms": 8557.98,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "hostinger.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 561.12,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8558.68,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "hostinger.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 678.63,
+    "response_time_ms": 8555.42,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host hostinger.net:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'hostinger.net'. (_ssl.c:1017)\")]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "hostinger.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8565.12,
+    "response_time_ms": 8557.88,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "hostinger.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2309.7,
+    "response_time_ms": 8557.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host hostinger.io:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "hostinger.co",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2396.11,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8557.99,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "hostinger.ai",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 4044.44,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8555.02,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "godaddy.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 703.46,
-    "server": "AkamaiGHost",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8557.18,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "godaddy.net",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 1130.23,
+    "response_time_ms": 4988.31,
     "server": "AkamaiGHost",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "godaddy.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8561.96,
+    "response_time_ms": 8557.62,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "godaddy.io",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 5265.72,
-    "server": "AkamaiGHost",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8554.13,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "godaddy.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8561.3,
-    "server": "Unknown",
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 754.65,
+    "server": "AkamaiGHost",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "godaddy.ai",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 3244.8,
+    "response_time_ms": 982.89,
     "server": "AkamaiGHost",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "vercel.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8562.42,
+    "response_time_ms": 8556.31,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "vercel.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8564.91,
+    "response_time_ms": 8556.57,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "vercel.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 4808.22,
+    "response_time_ms": 1166.78,
     "server": "Vercel",
     "tech_stack": [
       "Next.js, Payload"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "vercel.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 6068.8,
+    "response_time_ms": 3252.06,
     "server": "Vercel",
     "tech_stack": [
       "Next.js, Payload"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "vercel.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1852.38,
+    "response_time_ms": 1363.5,
     "server": "Vercel",
     "tech_stack": [
       "Next.js, Payload"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "vercel.ai",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1012.15,
-    "server": "Vercel",
-    "tech_stack": [
-      "Next.js, Payload"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8555.64,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "netlify.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8564.93,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 1397.03,
+    "server": "Netlify",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "netlify.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8563.49,
+    "response_time_ms": 8556.44,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "netlify.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 4799.43,
+    "response_time_ms": 3447.22,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host netlify.org:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "netlify.io",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2187.4,
+    "response_time_ms": 1587.73,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "netlify.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 5952.14,
+    "response_time_ms": 4846.3,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "netlify.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8563.02,
+    "response_time_ms": 8555.24,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "stripe.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.71,
+    "response_time_ms": 8551.38,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "stripe.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8562.3,
+    "response_time_ms": 8551.25,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "stripe.org",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8562.16,
-    "server": "Unknown",
+    "status": "Issues Detected",
+    "status_code": 465,
+    "response_time_ms": 738.0,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "stripe.io",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8560.84,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 3074.98,
+    "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "stripe.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2230.34,
+    "response_time_ms": 2046.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host stripe.co:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')]"
   },
   {
     "domain": "stripe.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8561.99,
+    "response_time_ms": 8555.5,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "shopify.com",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 803.25,
+    "response_time_ms": 7110.74,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "shopify.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8561.84,
+    "response_time_ms": 3010.82,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host shopify.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "shopify.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8561.75,
+    "response_time_ms": 8554.31,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "shopify.io",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8561.68,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
-  },
-  {
-    "domain": "shopify.co",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2777.19,
+    "response_time_ms": 4001.15,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
+  },
+  {
+    "domain": "shopify.co",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8553.98,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "shopify.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8561.53,
+    "response_time_ms": 3135.91,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host shopify.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "wix.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.91,
+    "response_time_ms": 8550.5,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "wix.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2314.17,
+    "response_time_ms": 8550.49,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host wix.net:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "wix.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2442.18,
+    "response_time_ms": 8330.68,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host wix.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')]"
   },
   {
     "domain": "wix.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8560.66,
+    "response_time_ms": 8553.63,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "wix.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2410.89,
+    "response_time_ms": 1029.21,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host wix.co:443 ssl:default [Temporary failure in name resolution]"
   },
   {
     "domain": "wix.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1447.43,
+    "response_time_ms": 8553.75,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host wix.ai:443 ssl:default [None]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "squarespace.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 3892.1,
-    "server": "Squarespace",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8553.78,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "squarespace.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1092.19,
+    "response_time_ms": 1695.08,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host squarespace.net:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1017)]"
   },
   {
     "domain": "squarespace.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8559.52,
+    "response_time_ms": 911.86,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host squarespace.org:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1017)]"
   },
   {
     "domain": "squarespace.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8559.29,
+    "response_time_ms": 4713.93,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host squarespace.io:443 ssl:default [[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1017)]"
   },
   {
     "domain": "squarespace.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8559.18,
+    "response_time_ms": 8553.79,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "squarespace.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8559.09,
+    "response_time_ms": 8553.77,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "bitbucket.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.99,
+    "response_time_ms": 8554.05,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "bitbucket.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1090.1,
+    "response_time_ms": 686.01,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host bitbucket.net:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1017)')]"
   },
   {
     "domain": "bitbucket.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1705.29,
+    "response_time_ms": 1836.19,
     "server": "AtlassianEdge",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "bitbucket.io",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1789.53,
-    "server": "AtlassianEdge",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8552.15,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "bitbucket.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8558.68,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 1657.71,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "bitbucket.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.57,
+    "response_time_ms": 8552.39,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "docker.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.33,
+    "response_time_ms": 8549.35,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "docker.net",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8558.24,
-    "server": "Unknown",
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 3107.19,
+    "server": "AkamaiGHost",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "docker.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1206.34,
+    "response_time_ms": 8551.81,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host docker.org:443 ssl:default [No address associated with hostname]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "docker.io",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 978.56,
+    "response_time_ms": 3885.41,
     "server": "Pantheon",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "docker.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 3863.64,
+    "response_time_ms": 5828.59,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host docker.co:443 ssl:default [Connect call failed ('217.70.184.38', 443)]"
   },
   {
     "domain": "docker.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1006.52,
+    "response_time_ms": 8551.67,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host docker.ai:443 ssl:default [Temporary failure in name resolution]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "coursera.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 562.49,
+    "response_time_ms": 8551.84,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host coursera.com:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'coursera.com'. (_ssl.c:1017)\")]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "coursera.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8560.06,
+    "response_time_ms": 8551.44,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "coursera.org",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2835.43,
-    "server": "envoy",
-    "tech_stack": [
-      "Express"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8551.36,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "coursera.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2720.83,
+    "response_time_ms": 8551.29,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host coursera.io:443 ssl:default [Connect call failed ('217.70.184.38', 443)]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "coursera.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.46,
+    "response_time_ms": 8551.19,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "coursera.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.37,
+    "response_time_ms": 4538.7,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host coursera.ai:443 ssl:default [Temporary failure in name resolution]"
   },
   {
     "domain": "udemy.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 1045.47,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8551.0,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "udemy.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.15,
+    "response_time_ms": 8550.93,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "udemy.org",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 991.85,
+    "response_time_ms": 2201.57,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "udemy.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8556.82,
+    "response_time_ms": 8551.18,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "udemy.co",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2118.96,
-    "server": "nginx",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8549.6,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "udemy.ai",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2951.52,
-    "server": "nginx",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8549.51,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "stackoverflow.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 5926.72,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8549.44,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "stackoverflow.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2602.82,
+    "response_time_ms": 1545.6,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host stackoverflow.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "stackoverflow.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8556.21,
+    "response_time_ms": 8549.23,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "stackoverflow.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8556.14,
+    "response_time_ms": 8549.11,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "stackoverflow.co",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1712.17,
-    "server": "Netlify",
-    "tech_stack": [
-      "Nuxt"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8549.02,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "stackoverflow.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.94,
+    "response_time_ms": 8548.93,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "envato.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 4233.0,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8548.79,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "envato.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.77,
+    "response_time_ms": 1083.61,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host envato.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "envato.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.68,
+    "response_time_ms": 8548.41,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "envato.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.35,
+    "response_time_ms": 2160.43,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host envato.io:443 ssl:default [[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1017)]"
   },
   {
     "domain": "envato.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.27,
+    "response_time_ms": 8548.08,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "envato.ai",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 5407.56,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8547.81,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "fiverr.com",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 1932.6,
+    "response_time_ms": 2632.35,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "fiverr.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 628.76,
+    "response_time_ms": 1607.0,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host fiverr.net:443 ssl:default [None]"
   },
   {
     "domain": "fiverr.org",
     "status": "Issues Detected",
     "status_code": 403,
-    "response_time_ms": 2098.46,
+    "response_time_ms": 3122.92,
     "server": "cloudflare",
     "tech_stack": [
       "Cloudflare"
     ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "fiverr.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 4226.94,
+    "response_time_ms": 8547.44,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host fiverr.io:443 ssl:default [Name or service not known]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "fiverr.co",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1808.84,
-    "server": "Apache",
-    "tech_stack": [
-      "PHP/7.3.33"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8546.74,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "fiverr.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1044.47,
+    "response_time_ms": 435.56,
     "server": "AmazonS3",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "upwork.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8559.94,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 2885.15,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "upwork.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.55,
+    "response_time_ms": 8549.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "upwork.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.82,
+    "response_time_ms": 1030.55,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host upwork.org:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "upwork.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8554.02,
+    "response_time_ms": 8548.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "upwork.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8554.4,
+    "response_time_ms": 8548.15,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "upwork.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8553.93,
+    "response_time_ms": 8546.9,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "freelancer.com",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1140.89,
-    "server": "nginx",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8546.82,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "freelancer.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8553.78,
+    "response_time_ms": 8546.73,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "freelancer.org",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 1355.64,
+    "response_time_ms": 1495.79,
     "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "freelancer.io",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1004.66,
-    "server": "nginx/1.14.0 (Ubuntu)",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8549.09,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "freelancer.co",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8553.49,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 785.34,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "freelancer.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 2516.56,
+    "response_time_ms": 2480.05,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host freelancer.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "kickstarter.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8553.24,
+    "response_time_ms": 8546.04,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "kickstarter.net",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 1437.62,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8545.89,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "kickstarter.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.08,
+    "response_time_ms": 8545.82,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "kickstarter.io",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 3961.37,
-    "server": "Hidden/CDN",
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8545.72,
+    "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "kickstarter.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.03,
+    "response_time_ms": 3725.59,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host kickstarter.co:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')]"
   },
   {
     "domain": "kickstarter.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 513.61,
+    "response_time_ms": 1605.06,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "indiegogo.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8556.95,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 6049.89,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "indiegogo.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8556.82,
+    "response_time_ms": 1939.52,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host indiegogo.net:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "indiegogo.org",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 1728.65,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8545.35,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "indiegogo.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.06,
+    "response_time_ms": 8545.18,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "indiegogo.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1762.44,
+    "response_time_ms": 6637.84,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": "Cannot connect to host indiegogo.co:443 ssl:default [Name or service not known]"
   },
   {
     "domain": "indiegogo.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.43,
+    "response_time_ms": 8545.01,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "producthunt.com",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 2415.7,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8544.94,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "producthunt.net",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 2044.1,
+    "response_time_ms": 3648.3,
     "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "producthunt.org",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8555.84,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Issues Detected",
+    "status_code": 403,
+    "response_time_ms": 1492.64,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "producthunt.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.02,
+    "response_time_ms": 8544.69,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "producthunt.co",
-    "status": "Issues Detected",
-    "status_code": 403,
-    "response_time_ms": 881.93,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8544.6,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "producthunt.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.62,
+    "response_time_ms": 6955.71,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host producthunt.ai:443 ssl:default [No address associated with hostname]"
   },
   {
     "domain": "techcrunch.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.38,
+    "response_time_ms": 8544.42,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "techcrunch.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.47,
+    "response_time_ms": 8544.3,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "techcrunch.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.63,
+    "response_time_ms": 6874.58,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host techcrunch.org:443 ssl:default [Temporary failure in name resolution]"
   },
   {
     "domain": "techcrunch.io",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8555.3,
+    "response_time_ms": 8544.09,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "techcrunch.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.06,
+    "response_time_ms": 8544.06,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "techcrunch.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 7806.66,
+    "response_time_ms": 8543.94,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host techcrunch.ai:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1017)')]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "theverge.com",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.31,
+    "response_time_ms": 8547.12,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "theverge.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8554.96,
+    "response_time_ms": 8547.18,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "theverge.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.77,
+    "response_time_ms": 8547.32,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "theverge.io",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8554.68,
-    "server": "Unknown",
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 2074.1,
+    "server": "Hidden/CDN",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "theverge.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8557.0,
+    "response_time_ms": 8547.23,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "theverge.ai",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 3803.97,
+    "response_time_ms": 8547.18,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host theverge.ai:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1017)]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "wired.com",
-    "status": "Offline / Expired / Unreachable",
-    "status_code": null,
-    "response_time_ms": 8557.44,
-    "server": "Unknown",
-    "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "status": "Online",
+    "status_code": 200,
+    "response_time_ms": 3095.84,
+    "server": "cloudflare",
+    "tech_stack": [
+      "Cloudflare"
+    ],
+    "last_checked": "2026-09-24 21:14:35 UTC"
   },
   {
     "domain": "wired.net",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8558.13,
+    "response_time_ms": 8547.16,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
+    "last_checked": "2026-09-24 21:14:35 UTC",
     "error": ""
   },
   {
     "domain": "wired.org",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 1497.65,
+    "response_time_ms": 8547.17,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": "Cannot connect to host wired.org:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')]"
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "wired.io",
-    "status": "Online",
-    "status_code": 200,
-    "response_time_ms": 2867.01,
-    "server": "cloudflare",
-    "tech_stack": [
-      "Cloudflare"
-    ],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "status": "Offline / Expired / Unreachable",
+    "status_code": null,
+    "response_time_ms": 8547.33,
+    "server": "Unknown",
+    "tech_stack": [],
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": ""
   },
   {
     "domain": "wired.co",
     "status": "Offline / Expired / Unreachable",
     "status_code": null,
-    "response_time_ms": 8554.14,
+    "response_time_ms": 1317.03,
     "server": "Unknown",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC",
-    "error": ""
+    "last_checked": "2026-09-24 21:14:35 UTC",
+    "error": "Cannot connect to host wired.co:443 ssl:default [Name or service not known]"
   },
   {
     "domain": "wired.ai",
     "status": "Online",
     "status_code": 200,
-    "response_time_ms": 5313.69,
+    "response_time_ms": 3706.54,
     "server": "nginx",
     "tech_stack": [],
-    "last_checked": "2026-09-24 16:39:27 UTC"
+    "last_checked": "2026-09-24 21:14:35 UTC"
   }
 ]
